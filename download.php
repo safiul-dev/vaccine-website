@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>শতভাগ কোভিড টিকা প্রোগ্রাম - ব্রাহ্মণপাড়া, কুমিল্লা</title>
+    <title>টিকা কার্ড ডাউনলোড - শতভাগ কোভিড টিকা প্রোগ্রাম</title>
     <link rel="shortcut icon" href="assest/img/n/favicon.png" />
     <link rel="stylesheet" href="">
     <!-- font awesome link -->
