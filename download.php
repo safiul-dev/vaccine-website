@@ -100,7 +100,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="section_title section_title_up_d">
-                        <h2>নিবন্ধন যাচাই</h2>
+                        <h2>টিকা কার্ড ডাউনলোড</h2>
                         <h3>অনুগ্রহ করে নিচের মেনু থেকে সনাক্তকরণ অপশনটি নির্বাচন করুন</h3>
                     </div>
                 </div>
@@ -169,8 +169,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="submit_btn_area">
-                                                    <button class=" big_form_submit_btn">টিকা কার্ড ডাউনলোড
-                                                        করুন</button>
+                                                    <button class=" big_form_submit_btn">যাচাই করুন</button>
                                                 </div>
                                             </form>
                                         </div>
@@ -218,12 +217,13 @@
                                             <form action="#">
                                                 <div class="input_content">
                                                     <div class="single_input half_one">
-                                                        <label for="nid_no">Birthday No</label>
+                                                        <label for="nid_no">জন্ম নিবন্ধনসনদ পরিচয় পত্রের নম্বর</label>
                                                         <input type="text" id="nid_no"
-                                                            placeholder="Example: 0101010101010101001">
+                                                            placeholder="উদাহরণঃ ২০০২১৬৪৯৪৫৬৯৭৪৬১২">
                                                     </div>
                                                     <div class="single_input half_one">
-                                                        <label for="birty">Birthday ( as Birthday ) </label>
+                                                        <label for="birty">জন্ম তারিখ (নিবন্ধনসনদ পরিচয়পত্র
+                                                            অনুযায়ী): </label>
                                                         <div class="bir_3_area">
                                                             <div class="birtdy_3">
                                                                 <input type="text" id="day" placeholder="Day ">
@@ -238,16 +238,18 @@
                                                     </div>
                                                 </div>
                                                 <div class="submit_btn_area">
-                                                    <button class=" big_form_submit_btn">Download</button>
+                                                    <button class=" big_form_submit_btn">যাচাই করুন</button>
                                                 </div>
                                             </form>
                                         </div>
                                         <div class=" down_sucess">
                                             <h2>
                                                 <div class="top_down_inf-">
-                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-                                                        voluptatum perspiciatis laboriosam perferendis voluptates
-                                                        molestiae fugiat culpa, doloremque numquam nostrum.</p>
+                                                    <p>আপনার 019xxxxxx58 মোবাইল নাম্বারে OTP প্রেরণ করা হয়েছে। সর্বোচ্চ
+                                                        ৫ (পাঁচ) মিনিটের মধ্যে OTP পেয়ে যাবেন। অনুগ্রহপূর্বক অপেক্ষা
+                                                        করুন। OTP পাওয়ার ৫ (পাঁচ) মিনিটের মধ্যে ব্যাবহার করতে হবে। OTP
+                                                        না পেলে
+                                                        বা মেয়াদ উত্তীর্ণ হয়ে গেলে পুনরায় চেষ্টা করুন।</p>
                                                 </div>
                                                 <div class="otp_box_in">
                                                     <div class="download_form_area">
@@ -310,9 +312,11 @@
                                         <div class=" down_sucess">
                                             <h2>
                                                 <div class="top_down_inf-">
-                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-                                                        voluptatum perspiciatis laboriosam perferendis voluptates
-                                                        molestiae fugiat culpa, doloremque numquam nostrum.</p>
+                                                    <p>আপনার 019xxxxxx58 মোবাইল নাম্বারে OTP প্রেরণ করা হয়েছে। সর্বোচ্চ
+                                                        ৫ (পাঁচ) মিনিটের মধ্যে OTP পেয়ে যাবেন। অনুগ্রহপূর্বক অপেক্ষা
+                                                        করুন। OTP পাওয়ার ৫ (পাঁচ) মিনিটের মধ্যে ব্যাবহার করতে হবে। OTP
+                                                        না পেলে
+                                                        বা মেয়াদ উত্তীর্ণ হয়ে গেলে পুনরায় চেষ্টা করুন।</p>
                                                 </div>
                                                 <div class="otp_box_in">
                                                     <div class="download_form_area">

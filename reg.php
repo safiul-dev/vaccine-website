@@ -308,13 +308,13 @@
                                                     </div>
                                                 </div>
                                                 <div class="submit_btn_area">
-                                                    <button class=" big_form_submit_btn">Download</button>
+                                                    <button class=" big_form_submit_btn">যাচাই করুন</button>
                                                 </div>
                                             </form>
                                         </div>
                                         <div class="success_massage">
                                             <h2>
-                                                Lorem ipsum dolor sit amet.
+                                                আপনার নিবন্ধন সফলভাবে সম্পন্ন হয়েছে
                                             </h2>
                                         </div>
                                         <!-- tab  -->
