@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Japan parts Professionals</title>
+    <title>শতভাগ কোভিড টিকা প্রোগ্রাম - ব্রাহ্মণপাড়া, কুমিল্লা</title>
     <link rel="shortcut icon" href="assest/img/n/favicon.png" />
     <link rel="stylesheet" href="">
     <!-- font awesome link -->
@@ -28,6 +28,26 @@
 <body>
     <!-- header section area start -->
     <header id="header" class="header_area big_section_cmn">
+        <div class="top_header">
+            <div class="container-fluid">
+                <div class="row align_items_cmn">
+                    <div class="col-sm-2">
+                        <div class="left_logo"> <img src="assest/img/covid/gob logo.png" alt=""> </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="top_header_content">
+                            <h1>শতভাগ কোভিড টিকা প্রোগ্রাম</h1>
+                            <h2>ব্রাহ্মণপাড়া কুমিল্লা</h2>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class=" right_logo">
+                            <img src="assest/img/covid/mobib.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- bootstrap 5 menu  -->
         <nav class="navbar navbar-expand-lg navbar-light menu_area_custom ">
             <div class="container-fluid">
@@ -45,19 +65,25 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">কোভিড টিকা প্রোগ্রাম</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Locations </a>
+                            <a class="nav-link" href="#">টিকা কেন্দ্র ও কমিটিসমূহ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">works </a>
+                            <a class="nav-link" href="#">কার্যক্রম</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Download </a>
+                            <a class="nav-link" href="#">উপজেলার টিকার পরিস্থিতি</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Team </a>
+                            <a class="nav-link" href="#">নিবন্ধন যাচাই</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">টিকা কার্ড ডাউনলোড</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">স্বেচ্ছাসেবকদের তালিকা</a>
                         </li>
 
                     </ul>
@@ -84,9 +110,11 @@
     <section class="location_section big_section_cmn">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-12"><div class="section_title">
-                    <h2>Word info 1</h2>
-                </div></div>
+                <div class="col-sm-12">
+                    <div class="section_title">
+                        <h2>Word info 1</h2>
+                    </div>
+                </div>
             </div>
             <div class="row align_items_cmn margin_bottom_cmn">
 
@@ -102,7 +130,8 @@
                             <h2>word name</h2>
                             <p><strong>Word information </strong> Lorem ipsum dolor, sit amet consectetur adipisicing
                                 elit. Nemo consectetur et nobis voluptates mollitia optio alias sit, sequi saepe atque
-                                corporis nostrum commodi tempore officia necessitatibus dicta odit eum reiciendis.</p>
+                                corporis nostrum commodi tempore officia necessitatibus
+                                dicta odit eum reiciendis.</p>
                             <div class="name_team"><span><strong>center Team Name: </strong></span><a
                                     href="#">Lakxmi</a></div>
                             <div class="center_team_work"> <strong>Center Team Work</strong> sit amet consectetur
@@ -128,7 +157,9 @@
                             <div class="center_team_work"> <strong>Center working Team Work : </strong> sit amet
                                 consectetur adipisicing elit. Sed dolorum beatae minus doloremque corrupti tenetur
                                 fugiat ut laborum velit nisi voluptate atque ullam optio vel, sit impedit ipsam,
-                                asperiores magnam.</div>
+                                asperiores
+                                magnam.
+                            </div>
                             <div class="unioun_team">
                                 <p><strong>sub-center Team: </strong></p>
                                 <ul>
@@ -165,9 +196,11 @@
     <section class="location_section big_section_cmn bg_cmn_g">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-12"><div class="section_title">
-                    <h2>Word info 1</h2>
-                </div></div>
+                <div class="col-sm-12">
+                    <div class="section_title">
+                        <h2>Word info 1</h2>
+                    </div>
+                </div>
             </div>
             <div class="row align_items_cmn margin_bottom_cmn">
 
@@ -183,7 +216,8 @@
                             <h2>word name</h2>
                             <p><strong>Word information </strong> Lorem ipsum dolor, sit amet consectetur adipisicing
                                 elit. Nemo consectetur et nobis voluptates mollitia optio alias sit, sequi saepe atque
-                                corporis nostrum commodi tempore officia necessitatibus dicta odit eum reiciendis.</p>
+                                corporis nostrum commodi tempore officia necessitatibus
+                                dicta odit eum reiciendis.</p>
                             <div class="name_team"><span><strong>center Team Name: </strong></span><a
                                     href="#">Lakxmi</a></div>
                             <div class="center_team_work"> <strong>Center Team Work</strong> sit amet consectetur
@@ -209,7 +243,9 @@
                             <div class="center_team_work"> <strong>Center working Team Work : </strong> sit amet
                                 consectetur adipisicing elit. Sed dolorum beatae minus doloremque corrupti tenetur
                                 fugiat ut laborum velit nisi voluptate atque ullam optio vel, sit impedit ipsam,
-                                asperiores magnam.</div>
+                                asperiores
+                                magnam.
+                            </div>
                             <div class="unioun_team">
                                 <p><strong>sub-center Team: </strong></p>
                                 <ul>
@@ -246,9 +282,11 @@
     <section class="location_section big_section_cmn">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-12"><div class="section_title">
-                    <h2>Word info 1</h2>
-                </div></div>
+                <div class="col-sm-12">
+                    <div class="section_title">
+                        <h2>Word info 1</h2>
+                    </div>
+                </div>
             </div>
             <div class="row align_items_cmn margin_bottom_cmn">
 
@@ -264,7 +302,8 @@
                             <h2>word name</h2>
                             <p><strong>Word information </strong> Lorem ipsum dolor, sit amet consectetur adipisicing
                                 elit. Nemo consectetur et nobis voluptates mollitia optio alias sit, sequi saepe atque
-                                corporis nostrum commodi tempore officia necessitatibus dicta odit eum reiciendis.</p>
+                                corporis nostrum commodi tempore officia necessitatibus
+                                dicta odit eum reiciendis.</p>
                             <div class="name_team"><span><strong>center Team Name: </strong></span><a
                                     href="#">Lakxmi</a></div>
                             <div class="center_team_work"> <strong>Center Team Work</strong> sit amet consectetur
@@ -290,7 +329,9 @@
                             <div class="center_team_work"> <strong>Center working Team Work : </strong> sit amet
                                 consectetur adipisicing elit. Sed dolorum beatae minus doloremque corrupti tenetur
                                 fugiat ut laborum velit nisi voluptate atque ullam optio vel, sit impedit ipsam,
-                                asperiores magnam.</div>
+                                asperiores
+                                magnam.
+                            </div>
                             <div class="unioun_team">
                                 <p><strong>sub-center Team: </strong></p>
                                 <ul>
@@ -327,9 +368,11 @@
     <section class="location_section big_section_cmn bg_cmn_g">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-12"><div class="section_title">
-                    <h2>Word info 1</h2>
-                </div></div>
+                <div class="col-sm-12">
+                    <div class="section_title">
+                        <h2>Word info 1</h2>
+                    </div>
+                </div>
             </div>
             <div class="row align_items_cmn margin_bottom_cmn">
 
@@ -345,7 +388,8 @@
                             <h2>word name</h2>
                             <p><strong>Word information </strong> Lorem ipsum dolor, sit amet consectetur adipisicing
                                 elit. Nemo consectetur et nobis voluptates mollitia optio alias sit, sequi saepe atque
-                                corporis nostrum commodi tempore officia necessitatibus dicta odit eum reiciendis.</p>
+                                corporis nostrum commodi tempore officia necessitatibus
+                                dicta odit eum reiciendis.</p>
                             <div class="name_team"><span><strong>center Team Name: </strong></span><a
                                     href="#">Lakxmi</a></div>
                             <div class="center_team_work"> <strong>Center Team Work</strong> sit amet consectetur
@@ -371,7 +415,9 @@
                             <div class="center_team_work"> <strong>Center working Team Work : </strong> sit amet
                                 consectetur adipisicing elit. Sed dolorum beatae minus doloremque corrupti tenetur
                                 fugiat ut laborum velit nisi voluptate atque ullam optio vel, sit impedit ipsam,
-                                asperiores magnam.</div>
+                                asperiores
+                                magnam.
+                            </div>
                             <div class="unioun_team">
                                 <p><strong>sub-center Team: </strong></p>
                                 <ul>
@@ -404,7 +450,7 @@
         </div>
     </section>
     <!-- location section   -->
- 
+
 
 
     <!-- footer  -->

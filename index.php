@@ -77,10 +77,10 @@
                             <a class="nav-link" href="#">উপজেলার টিকার পরিস্থিতি</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">নিবন্ধন যাচাই</a>
+                            <a class="nav-link" href="./reg.php">নিবন্ধন যাচাই</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">টিকা কার্ড ডাউনলোড</a>
+                            <a class="nav-link" href="./download.php">টিকা কার্ড ডাউনলোড</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">স্বেচ্ছাসেবকদের তালিকা</a>
