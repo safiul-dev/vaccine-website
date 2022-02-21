@@ -1,0 +1,252 @@
+.download_form_area input {
+    width: 100%;
+}
+
+.single_input label {
+ line-height: 1.3em;
+    color: #535353;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom:5px;
+    display: block;
+    text-transform: capitalize;
+}
+
+
+
+.single_input input {
+    border: 1px solid #70707080;
+    
+    line-height: 1.35em;
+    color: #535353;
+    color: #000000;
+    padding: 10px 15px;
+    border-radius: 3px;
+  
+}
+
+
+.input_content {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.half_one {
+    width: calc( 50% - 15px );
+}
+
+.half_one:nth-child(odd) {
+    margin-right: 30px;
+}
+
+.single_input {
+    margin-bottom: 10px;
+}
+
+
+.submit_btn_area .big_form_submit_btn {
+   
+    font-weight: 700;
+    color: #fff;
+    background:  #609513;
+    border-radius: 3px;
+    padding: 12px 42px;
+    border: 0px;
+    transition: 0.3s ease-in;
+}
+.submit_btn_area .big_form_submit_btn:hover {
+    background: rgb(51, 52, 160);
+    color: #fff;
+}
+.download_form_area {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.submit_btn_area {
+    margin-top: 10px;
+}
+
+@media all and (max-width:767px){
+    .single_input.half_one {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+
+/* update design  */
+
+.section_title_up_d h2 {
+    padding: 15px 45px;
+    background: #032559;
+    color: #fff;
+    border-radius: 45px;
+    display: inline-block;
+}
+.section_title_up_d h3 {
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: 600;
+}
+/* update design  */
+/* form update  */
+.tab_content_area_s {
+    padding-top: 30px;
+}
+
+
+.tab_content_area_s .single_input input {
+    background: #f8fcff;
+    border-radius: 15px;
+    border: 2px solid #000;
+}
+/* up  */
+.bir_3_area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.birtdy_3 {
+    width: calc(33.33% - 10px );
+}
+
+.birtdy_3 {
+    margin-right: 14px;
+}
+
+.birtdy_3:last-child {
+    margin-right: 0;
+}
+
+.birtdy_3:nth-child(1) {
+    width: 98px;
+}
+
+.birtdy_3:nth-child(3) {
+    width: 135px;
+}
+
+.birtdy_3 input {
+    text-align: center;
+}
+.submit_btn_area {
+    margin-left: auto;
+    text-align: right;
+}
+.tab_content_area_s .download_form_area {
+    max-width: 790px;
+    margin: 0 auto;
+}
+/* up  */
+.success_massage {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.success_massage h2 {
+    font-weight: 700;
+    background: #f3f9f2;
+    display: inline-block;
+    padding: 15px 25px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    font-size: 26px;
+}
+.tab_content_area_s .submit_btn_area .big_form_submit_btn {
+    background: #f26d3e;
+    border-radius: 25px;
+}
+
+.tab_content_area_s .submit_btn_area .big_form_submit_btn:hover{
+    background:#032559;
+}
+
+/* tab  */
+.tab_content_area button {
+    border: 0px !important;
+}
+
+.tab_content_area .nav-tabs {
+    border-bottom: 0px !important;
+}
+
+/* up up  */
+
+.tab_content_area_s .submit_btn_area {
+    margin-top: 34px;
+}
+
+.tab_content_area_s .single_input label {
+    margin-bottom: 10px;
+}
+
+
+.tab_content_area button {
+    border: 0px !important;
+}
+
+.tab_content_area .nav-tabs {
+    border-bottom: 0px !important;
+}
+
+
+.custom_tab_menu li {
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.custom_tab_menu {
+    display: block;
+}
+
+.custom_tab_menu li button {
+    background: #dee1e6 !important;
+    display: block;
+    width: 200px;
+    text-align: center;
+    border-radius: 15px !important;
+    border: 2px solid transparent !important;
+    transition: 0.3s ease-in;
+    font-weight:700;
+    color:#000;
+}
+
+.custom_tab_menu li button.active {
+    border: 2px solid #000 !important;
+    background:#6cf24c !important;
+}
+/* form update  */
+
+
+/* down load page  */
+.top_down_inf- {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.otp_box_in .input_content {
+    justify-content: center;
+    display: block;
+}
+
+.otp_box_in .input_content label {
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+
+.otp_box_in .submit_btn_area {text-align: center;}
+.otp_box_in .download_form_area {
+    max-width: 600px;
+}
+/* down load page  */
