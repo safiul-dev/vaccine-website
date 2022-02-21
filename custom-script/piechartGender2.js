@@ -99,7 +99,7 @@ $(document).ready(function() {
 
 
     $.ajax({
-        url: "https://covidvaccination-brahmanpara.gov.bd/pie-chart-data-gender2",
+        url: "https://uno.covidvaccination-brahmanpara.gov.bd/pie-chart-data-gender2",
         type: 'get',
         success: function(res) {
             // console.log(res)

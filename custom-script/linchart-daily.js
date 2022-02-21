@@ -77,7 +77,7 @@ $(document).ready(function() {
 
     var chart_area_spline = new ApexCharts(document.querySelector("#entry-chart2"), options);
     chart_area_spline.render();
-    var url = 'https://covidvaccination-brahmanpara.gov.bd/line-chart-today'
+    var url = 'https://uno.covidvaccination-brahmanpara.gov.bd/line-chart-today'
     $.getJSON(url, function(response) {
 
         seriesUpdateWithRequest(response)

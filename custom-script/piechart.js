@@ -107,7 +107,7 @@ $(document).ready(function() {
     }
 
     $.ajax({
-        url: "https://covidvaccination-brahmanpara.gov.bd/pie-chart-data",
+        url: "https://uno.covidvaccination-brahmanpara.gov.bd/pie-chart-data",
         type: 'get',
         success: function(res) {
             piechartOptions(res)

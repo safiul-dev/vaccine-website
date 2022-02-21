@@ -11,7 +11,7 @@ $(document).ready(function() {
 
 
     $.ajax({
-        url: 'https://covidvaccination-brahmanpara.gov.bd/shocked-bar-chart',
+        url: 'https://uno.covidvaccination-brahmanpara.gov.bd/shocked-bar-chart',
         type: 'get',
         success: function(res) {
             // console.log(res);

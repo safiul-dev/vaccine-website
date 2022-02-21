@@ -98,7 +98,7 @@ $(document).ready(function() {
 
 
     $.ajax({
-        url: "https://covidvaccination-brahmanpara.gov.bd/pie-chart-data-tika1",
+        url: "https://uno.covidvaccination-brahmanpara.gov.bd/pie-chart-data-tika1",
         type: 'get',
         success: function(res) {
             // console.log(res)

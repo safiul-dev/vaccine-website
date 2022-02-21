@@ -2,7 +2,7 @@ $(document).ready(function() {
     var stackedChart = echarts.init(document.getElementById('stacked-bar-age'));
 
     $.ajax({
-        url: 'https://covidvaccination-brahmanpara.gov.bd/shocked-bar-chart-age',
+        url: 'https://uno.covidvaccination-brahmanpara.gov.bd/shocked-bar-chart-age',
         type: 'get',
         success: function(res) {
             // console.log(res)
