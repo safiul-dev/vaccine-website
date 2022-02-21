@@ -74,7 +74,7 @@
                             <a class="nav-link" href="#">কার্যক্রম</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">উপজেলার টিকার পরিস্থিতি</a>
+                            <a class="nav-link" href="./Vaccination-situation.php">উপজেলার টিকার পরিস্থিতি</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./reg.php">নিবন্ধন যাচাই</a>
@@ -85,7 +85,6 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">স্বেচ্ছাসেবকদের তালিকা</a>
                         </li>
-
                     </ul>
                 </div>
             </div>
