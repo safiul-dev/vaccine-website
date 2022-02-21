@@ -154,7 +154,7 @@
                                                     <div class="single_input half_one">
                                                         <label for="nid_no">জাতীয় পরিচয় পত্রের নম্বর</label>
                                                         <input type="text" id="nid_no"
-                                                            placeholder="Example: 0101010101010101001">
+                                                            placeholder="উদাহরণঃ ২০০২১৬৪৯৪৫৬৯৭৪৬১২">
                                                     </div>
                                                     <div class="single_input half_one">
                                                         <label for="birty">জন্ম তারিখ (জাতীয় পরিচয়পত্র
@@ -200,7 +200,7 @@
                                                     <div class="single_input half_one">
                                                         <label for="nid_no">জন্ম নিবন্ধনসনদ পরিচয় পত্রের নম্বর</label>
                                                         <input type="text" id="nid_no"
-                                                            placeholder="Example: 0101010101010101001">
+                                                            placeholder="উদাহরণঃ ২০০২১৬৪৯৪৫৬৯৭৪৬১২">
                                                     </div>
                                                     <div class="single_input half_one">
                                                         <label for="birty">জন্ম তারিখ (নিবন্ধনসনদ পরিচয়পত্র
@@ -245,7 +245,7 @@
                                                     <div class="single_input half_one">
                                                         <label for="nid_no">পাসপোর্ট নম্বর</label>
                                                         <input type="text" id="nid_no"
-                                                            placeholder="Example: 0101010101010101001">
+                                                            placeholder="উদাহরণঃ ২০০২১৬৪৯৪৫৬৯৭৪৬১২">
                                                     </div>
                                                     <div class="single_input half_one">
                                                         <label for="birty">জন্ম তারিখ (পাসপোর্ট পরিচয়পত্র
@@ -288,20 +288,21 @@
                                             <form action="#">
                                                 <div class="input_content">
                                                     <div class="single_input half_one">
-                                                        <label for="nid_no">Phone No</label>
+                                                        <label for="nid_no">মোবাইল নাম্বার</label>
                                                         <input type="text" id="nid_no" placeholder="+880100000">
                                                     </div>
                                                     <div class="single_input half_one">
-                                                        <label for="birty">Birthday ( as Pasport ) </label>
+                                                        <label for="birty">জন্ম তারিখ (পাসপোর্ট পরিচয়পত্র
+                                                            অনুযায়ী):</label>
                                                         <div class="bir_3_area">
                                                             <div class="birtdy_3">
-                                                                <input type="text" id="day" placeholder="Day ">
+                                                                <input type="text" id="day" placeholder="দিন ">
                                                             </div>
                                                             <div class="birtdy_3">
-                                                                <input type="text" id="month" placeholder="Month">
+                                                                <input type="text" id="month" placeholder="মাস">
                                                             </div>
                                                             <div class="birtdy_3">
-                                                                <input type="text" id="Year" placeholder="Year">
+                                                                <input type="text" id="Year" placeholder="বছর">
                                                             </div>
                                                         </div>
                                                     </div>

@@ -150,7 +150,7 @@
                                                     <div class="single_input half_one">
                                                         <label for="nid_no">জাতীয় পরিচয় পত্রের নম্বর</label>
                                                         <input type="text" id="nid_no"
-                                                            placeholder="Example: 0101010101010101001">
+                                                            placeholder="উদাহরণঃ ২০০২১৬৪৯৪৫৬৯৭৪৬১২">
                                                     </div>
                                                     <div class="single_input half_one">
                                                         <label for="birty">জন্ম তারিখ (জাতীয় পরিচয়পত্র
