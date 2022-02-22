@@ -428,8 +428,8 @@
         <!-- footer with menu  -->
         <div class="container-fluid">
             <div class="footer_bottom">
-                <h3>আয়োজনেঃ উপজেলা প্রশাসন ব্রাহ্মণপাড়া কুমিল্লা</h3>
-                <h3>সহযোগিতায়ঃ উপজেলা পরিষদ ও উপজেলা স্বাস্থ্য ও পরিবার পরিকল্পনা অফিস</h3>
+                <h3>&copy; উপজেলা প্রশাসন, ব্রাহ্মণপাড়া, কুমিল্লা</h3>
+                <!-- <h3>সহযোগিতায়ঃ উপজেলা পরিষদ ও উপজেলা স্বাস্থ্য ও পরিবার পরিকল্পনা অফিস</h3> -->
             </div>
         </div>
         <!-- footer with menu  -->
@@ -442,9 +442,7 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
     <!-- bootstrap  -->
-
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
     <!-- slick  -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.compatibility.js"></script> -->

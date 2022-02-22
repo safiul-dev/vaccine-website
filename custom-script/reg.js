@@ -74,9 +74,6 @@ $(document).ready(function() {
         }
     }
 
-
-
-
     $('#submit').on('submit', function(e) {
         e.preventDefault();
 

@@ -330,7 +330,6 @@
             },
         };
 
-
         var chart_area_spline = new ApexCharts(document.querySelector("#entry-chart"), options);
         chart_area_spline.render();
         var url = 'https://uno.covidvaccination-brahmanpara.gov.bd/home'
