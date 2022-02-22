@@ -1,291 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="./assest/css/card_style.css">
-        <script src="https://kit.fontawesome.com/1d0385b580.js" crossorigin="anonymous"></script>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assest/css/card_style.css">
+    <script src="https://kit.fontawesome.com/1d0385b580.js" crossorigin="anonymous"></script>
+</head>
 
-    <body>
-        <div class="container">
-            <div class="left-wrepper">
-                <div class="header">
-                    <div class="logo">
-                        <a href="">
-                            <img src="../assets/images/main-logo.png" alt="">
-                        </a>
-                    </div>
-                    <div>
-                        <h3>শতভাগ কোবিড টিকা প্রোগ্রাম</h3>
-                    </div>
-                    <div>
-                        <img src="../assets/images/mojib.png" alt="">
-                    </div>
+<body>
+    <div class="container">
+        <div class="left-wrepper">
+            <div class="header">
+                <div class="logo">
+                    <a href="">
+                        <img src="assest/img/covid/gob logo.png" alt="">
+                    </a>
                 </div>
-                <div class="bottom-header">
+                <div>
                     <h3>শতভাগ কোবিড টিকা প্রোগ্রাম</h3>
                 </div>
-                <div class="tika-form">
-                    <div class="form-group">
-                        <div class="label-div">
-                            <label class="form-label" for="">জাতীয় পরিচয়পত্র/জন্মনিবন্দন/পাসপোর্ট নম্বর</label>
-                        </div>
-                        <div class="input-div">
-                            <input type="text" class="form-control">
-                        </div>
+                <div>
+                    <img src="assest/img/covid/mobib.png" alt="">
+                </div>
+            </div>
+            <div class="bottom-header">
+                <h3>শতভাগ কোবিড টিকা প্রোগ্রাম</h3>
+            </div>
+            <div class="tika-form">
+                <div class="form-group">
+                    <div class="label-div">
+                        <label class="form-label" for="">জাতীয় পরিচয়পত্র/জন্মনিবন্দন/পাসপোর্ট নম্বর</label>
                     </div>
-                    <div class="form-group">
-                        <div class="label-div-name">
-                            <label class="form-label" for="">নাম</label>
-                        </div>
-                        <div class="input-div-name">
-                            <input type="text" class="form-control">
-                        </div>
+                    <div class="input-div">
+                        <input type="text" class="form-control">
                     </div>
-                    <div class="form-group">
-                        <div class="label-div-date">
-                            <label class="form-label" for="">জন্ম তারিখ</label>
-                        </div>
-                        <div class="input-div-date">
-                            <input type="text" class="form-control">
-                        </div>
+                </div>
+                <div class="form-group">
+                    <div class="label-div-name">
+                        <label class="form-label" for="">নাম</label>
                     </div>
-                    <div class="form-group">
-                        <div class="label-div-mobile">
-                            <label class="form-label" for="">মোবাইল</label>
-                        </div>
-                        <div class="input-div-mobile">
-                            <input type="text" class="form-control">
-                        </div>
+                    <div class="input-div-name">
+                        <input type="text" class="form-control">
                     </div>
-                    <div class="form-group">
-                        <div class="label-div-kendro">
-                            <label class="form-label" for="">কেন্দ্রের নাম</label>
-                        </div>
-                        <div class="input-div-kendro">
-                            <input type="text" class="form-control">
-                        </div>
+                </div>
+                <div class="form-group">
+                    <div class="label-div-date">
+                        <label class="form-label" for="">জন্ম তারিখ</label>
                     </div>
+                    <div class="input-div-date">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="label-div-mobile">
+                        <label class="form-label" for="">মোবাইল</label>
+                    </div>
+                    <div class="input-div-mobile">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="label-div-kendro">
+                        <label class="form-label" for="">কেন্দ্রের নাম</label>
+                    </div>
+                    <div class="input-div-kendro">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
 
-                    <div class="tikada_tottho">
-                        <h5>টিকাদানকারী কর্মীর তথ্য</h3>
+                <div class="tikada_tottho">
+                    <h5>টিকাদানকারী কর্মীর তথ্য</h3>
+                </div>
+
+                <div class="form-group">
+                    <div class="label-div-name">
+                        <label class="form-label" for="">নাম</label>
                     </div>
-
-                    <div class="form-group">
-                        <div class="label-div-name">
-                            <label class="form-label" for="">নাম</label>
-                        </div>
-                        <div class="input-div-name">
-                            <input type="text" class="form-control">
-                        </div>
+                    <div class="input-div-name">
+                        <input type="text" class="form-control">
                     </div>
+                </div>
 
-                    <div class="form-group">
-                        <div class="label-div-mobile">
-                            <label class="form-label" for="">মোবাইল</label>
-                        </div>
-                        <div class="input-div-mobile">
-                            <input type="text" class="form-control">
-                        </div>
+                <div class="form-group">
+                    <div class="label-div-mobile">
+                        <label class="form-label" for="">মোবাইল</label>
                     </div>
+                    <div class="input-div-mobile">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
 
-                    <div class="table-div">
-                        <table class="">
-                            <thead>
-                                <tr class="table-header">
-                                    <th colspan="3">কোবিড ১৯ টিকা প্রদান সম্পর্কিত তথ্য</th>
-                                </tr>
-                                <tr class="table-header-bottom">
-                                    <th colspan="1">টিকার ডোজ</th>
-                                    <th colspan="1">টাকা পাওয়ার তারিখ</th>
-                                    <th colspan="1">টিকা প্রদানের তারিখ ও কর্মীর সাক্ষর</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr class="table-body-tr">
-                                    <th scope="row">কোবিড ১৯ টিকা- প্রথম ডোজ</th>
-                                    <td class="table_td" rowspan="1"></td>
-                                    <td class="table_td" rowspan="1"></td>
-                                </tr>
-                                <tr class="table-body-tr">
-                                    <th scope="row">কোবিড ১৯ টিকা- প্রথম ডোজ</th>
-                                    <td class="table_td" rowspan="1"></td>
-                                    <td class="table_td" rowspan="1"></td>
-                                </tr>
-                                <tr class="table-body-tr">
-                                    <th scope="row">টিকার নাম ও ব্যাচ নং</th>
-                                    <td class="table_bottom_td" colspan="2">
-                                        <div class="rd_td_wrapper_main">
+                <div class="table-div">
+                    <table class="">
+                        <thead>
+                            <tr class="table-header">
+                                <th colspan="3">কোবিড ১৯ টিকা প্রদান সম্পর্কিত তথ্য</th>
+                            </tr>
+                            <tr class="table-header-bottom">
+                                <th colspan="1">টিকার ডোজ</th>
+                                <th colspan="1">টাকা পাওয়ার তারিখ</th>
+                                <th colspan="1">টিকা প্রদানের তারিখ ও কর্মীর সাক্ষর</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table-body-tr">
+                                <th scope="row">কোবিড ১৯ টিকা- প্রথম ডোজ</th>
+                                <td class="table_td" rowspan="1"></td>
+                                <td class="table_td" rowspan="1"></td>
+                            </tr>
+                            <tr class="table-body-tr">
+                                <th scope="row">কোবিড ১৯ টিকা- প্রথম ডোজ</th>
+                                <td class="table_td" rowspan="1"></td>
+                                <td class="table_td" rowspan="1"></td>
+                            </tr>
+                            <tr class="table-body-tr">
+                                <th scope="row">টিকার নাম ও ব্যাচ নং</th>
+                                <td class="table_bottom_td" colspan="2">
+                                    <div class="rd_td_wrapper_main">
 
-                                            <div class="rd_td_wrapper">
-
-                                            </div>
-
-                                            <div class="rd_td_wrapper">
-                                                <p>ডোজ - ১ : </p>
-                                            </div>
-                                            <div class="rd_td_wrapper_bottom">
-                                                <p>ডোজ - ২ :</p>
-                                            </div>
+                                        <div class="rd_td_wrapper">
 
                                         </div>
-                                    </td>
-                                </tr>
-                            </tbody>
 
-                        </table>
-                    </div>
+                                        <div class="rd_td_wrapper">
+                                            <p>ডোজ - ১ : </p>
+                                        </div>
+                                        <div class="rd_td_wrapper_bottom">
+                                            <p>ডোজ - ২ :</p>
+                                        </div>
 
-                    <div class="bottom-sign">
-                        <div class="sign_inner_div">
-                            <div>
-                                <input type="text" class="sign_input">
-                            </div>
-                            <div>
-                                <p>
-                                    উপজেলা স্বাস্থ্য ও পরিবার পরিকল্পনা কর্মকর্তার স্বাক্ষর
-                                </p>
-                            </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+
+                <div class="bottom-sign">
+                    <div class="sign_inner_div">
+                        <div>
+                            <input type="text" class="sign_input">
+                        </div>
+                        <div>
+                            <p>
+                                উপজেলা স্বাস্থ্য ও পরিবার পরিকল্পনা কর্মকর্তার স্বাক্ষর
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="right-wrepper">
-                <div class="right-header">
-
-                    <div>
-                        <h3>শতভাগ কোবিড টিকা প্রোগ্রাম</h3>
-                    </div>
-
-                </div>
-                <div class="bottom-header">
-                    <h3>কোবিড ১৯ টিকা কার্ড </h3>
-                </div>
-                <div class="text">
-
-
-                    <div class="text-inner-div">
-                        <div class="text-angle">></div>
-                        <div>
-                            <p class="text-p">কোবিড-১৯ টিকা নেয়ার জন্য নির্ধিষ্ট তারিকে নির্ধিষ্ট টিকাদান কেন্দ্রে এই টীকার কার্ডটি সাথে নিয়ে আসুন |</p>
-                        </div>
-                    </div>
-                    <div class="text-inner-div">
-                        <div class="text-angle">></div>
-                        <div>
-                            <p class="text-p">টিকা নেয়ার পর যেকোনো সমস্যা/অসুবিদা হলে যোগাযোগ সাথে সাথে টিকাদান কর্মীকে খবর দিন | প্রয়োজনে নিকটস্ত স্বাস্থকেন্দ্রে করুন|</p>
-                        </div>
-                    </div>
-                    <div class="text-inner-div">
-                        <div class="text-angle">></div>
-                        <div>
-                            <p class="text-p">টিকা গ্রহণ শেষ হলেও ভবিষৎ প্রয়াজনে কার্ডটি সংরক্ষন করুন |</p>
-                        </div>
-                    </div>
-                    <div class="text-inner-div">
-                        <div class="text-angle">></div>
-                        <div>
-                            <p class="text-p">কোবিড-১৯ টাকা পেলেও যথাযথ শাস্তবিদি মেনে চলোন |</p>
-                        </div>
-                    </div>
-                    <div class="text-inner-div">
-                        <div class="text-angle">></div>
-                        <div>
-                            <p class="text-p">বাড়ির বাইরে সবসময় নাক-মুখ ডেকে সঠিক নিয়মে মাস্ক ব্যবহার করুন |</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="qr_image">
-                    <img src="../assets/images/download.png" alt="">
-                </div>
-
-                <div class="covid_information">
-                    <div class="tottho">
-                        কোবিড-১৯ সংক্রান্ত তথ্যের জন্য যোগাযোগ করুন
-                    </div>
-                    <div class="cell-phone-main">
-                        <div class="cell_phone"><i class="fas fa-phone-alt"></i></div>
-                        <p class="number">১৬২৬৩ | ৩৩৩</p>
-                    </div>
-                    <div class="web-address-main">
-                        <div class="web-icon"><i class="fas fa-globe"></i></i>
-                        </div>
-                        <p class="web-address">www.covidvaccination-brahmanpara.gov.bd | www.corona.gov.bd</p>
-                    </div>
-                </div>
-
-                <div class="right-bottom-header">
-                    <p>আপনার সহজোগিতায় বাংলাদেশ সরকার কোভিড-১৯ ভ্যাকসিন উদ্দিষ্ট সকলের কাছে পৌঁছে দিতে বদ্ধপরিকর</p>
-                </div>
-                <div class="eccho-main">
-                    <div class="eccho-text">
-                        <p>টিকার সময়সূচি নিয়ে যোগাযোগ</p>
-                        <p>টিকা সংক্রান্ত জটিলতায় যোগাযোগ</p>
-                        <p>সার্বিক বিষয়ে যোগাযোগ</p>
-                    </div>
-                    <div class="eccho-box">
-                        <div class="colunm-box">
-                            <div class="hexagon">
-                                <div class="rotate-squere"></div>
-                                <div class="hexagon-text">সংশ্লিষ্ট ওয়ার্ড সদস্য</div>
-                                <div class="rotate-squere2"></div>
-                            </div>
-                            <div class="hexagon2">
-                                <div class="rotate-squere22"></div>
-                                <div class="hexagon-text2">উপকেন্দ্রের প্রধান শিক্ষক</div>
-                                <div class="rotate-squere23"></div>
-                            </div>
-                            <div class="hexagon3">
-                                <div class="rotate-squere231"></div>
-                                <div class="hexagon-text3">ইউনিয়ন পরিষদের চেয়ারম্যান</div>
-                                <div class="rotate-squere233"></div>
-                            </div>
-                        </div>
-                        <div class="hexagon-second">
-                            <div class="rotate-squere-second"></div>
-                            <div class="hexagon-text-second">
-                                <i class="fa-thin fa-tty"></i>
-                                <p>01552-484586</p>
-                            </div>
-                            <div class="rotate-squere-second2"></div>
-                        </div>
-                        <div class="hexagon-third">
-                            <div class="rotate-squere-third"></div>
-                            <div class="hexagon-text-third">
-                                <p>উপজেলা নির্বাহি অফিসার</p>
-                                <i class="fa-thin fa-tty"></i>
-                                <p>01552-484586</p>
-                            </div>
-                            <div class="rotate-squere-third2"></div>
-                        </div>
-                    </div>
-
-
-                </div>
-                <div class="left-bottom-wrapper">
-                    <div class="bottom-left-wrapper">
-                        <div class="left-bottom-right-wrapper">
-                            <p>আয়োজনে</p>
-                        </div>
-                        <div class="left-bottom-right-wrapper">
-                            <p>সহযোগিতায়</p>
-                        </div>
-                    </div>
-                    <div class="bottom-right-wrapper">
-                        <p>উপজেলা প্রশাসন ব্রাহ্মণপাড়া কুমিল্লা</p>
-                        <p>উপজেলা পরিষদ ও উপজেলা স্বাস্থ্য ও পরিবার পরিকল্পনা অফিস</p>
-                    </div>
-                    <div class="bottom-left-image">
-                        <img src="../assets/images/main-logo.png" alt="">
-                    </div>
-                </div>
-            </div>
-
         </div>
-    </body>
+        <div class="right-wrepper">
+            <div class="right-header">
+
+                <div>
+                    <h3>শতভাগ কোবিড টিকা প্রোগ্রাম</h3>
+                </div>
+
+            </div>
+            <div class="bottom-header">
+                <h3>কোবিড ১৯ টিকা কার্ড </h3>
+            </div>
+            <div class="text">
+
+
+                <div class="text-inner-div">
+                    <div class="text-angle">></div>
+                    <div>
+                        <p class="text-p">কোবিড-১৯ টিকা নেয়ার জন্য নির্ধিষ্ট তারিকে নির্ধিষ্ট টিকাদান কেন্দ্রে এই টীকার
+                            কার্ডটি সাথে নিয়ে আসুন |</p>
+                    </div>
+                </div>
+                <div class="text-inner-div">
+                    <div class="text-angle">></div>
+                    <div>
+                        <p class="text-p">টিকা নেয়ার পর যেকোনো সমস্যা/অসুবিদা হলে যোগাযোগ সাথে সাথে টিকাদান কর্মীকে খবর
+                            দিন | প্রয়োজনে নিকটস্ত স্বাস্থকেন্দ্রে করুন|</p>
+                    </div>
+                </div>
+                <div class="text-inner-div">
+                    <div class="text-angle">></div>
+                    <div>
+                        <p class="text-p">টিকা গ্রহণ শেষ হলেও ভবিষৎ প্রয়াজনে কার্ডটি সংরক্ষন করুন |</p>
+                    </div>
+                </div>
+                <div class="text-inner-div">
+                    <div class="text-angle">></div>
+                    <div>
+                        <p class="text-p">কোবিড-১৯ টাকা পেলেও যথাযথ শাস্তবিদি মেনে চলোন |</p>
+                    </div>
+                </div>
+                <div class="text-inner-div">
+                    <div class="text-angle">></div>
+                    <div>
+                        <p class="text-p">বাড়ির বাইরে সবসময় নাক-মুখ ডেকে সঠিক নিয়মে মাস্ক ব্যবহার করুন |</p>
+                    </div>
+                </div>
+            </div>
+            <div class="qr_image">
+                <img src="../assets/images/download.png" alt="">
+            </div>
+
+            <div class="covid_information">
+                <div class="tottho">
+                    কোবিড-১৯ সংক্রান্ত তথ্যের জন্য যোগাযোগ করুন
+                </div>
+                <div class="cell-phone-main">
+                    <div class="cell_phone"><i class="fas fa-phone-alt"></i></div>
+                    <p class="number">১৬২৬৩ | ৩৩৩</p>
+                </div>
+                <div class="web-address-main">
+                    <div class="web-icon"><i class="fas fa-globe"></i></i>
+                    </div>
+                    <p class="web-address">www.covidvaccination-brahmanpara.gov.bd | www.corona.gov.bd</p>
+                </div>
+            </div>
+
+            <div class="right-bottom-header">
+                <p>আপনার সহজোগিতায় বাংলাদেশ সরকার কোভিড-১৯ ভ্যাকসিন উদ্দিষ্ট সকলের কাছে পৌঁছে দিতে বদ্ধপরিকর</p>
+            </div>
+            <div class="eccho-main">
+                <div class="eccho-text">
+                    <p>টিকার সময়সূচি নিয়ে যোগাযোগ</p>
+                    <p>টিকা সংক্রান্ত জটিলতায় যোগাযোগ</p>
+                    <p>সার্বিক বিষয়ে যোগাযোগ</p>
+                </div>
+                <div class="eccho-box">
+                    <div class="colunm-box">
+                        <div class="hexagon">
+                            <div class="rotate-squere"></div>
+                            <div class="hexagon-text">সংশ্লিষ্ট ওয়ার্ড সদস্য</div>
+                            <div class="rotate-squere2"></div>
+                        </div>
+                        <div class="hexagon2">
+                            <div class="rotate-squere22"></div>
+                            <div class="hexagon-text2">উপকেন্দ্রের প্রধান শিক্ষক</div>
+                            <div class="rotate-squere23"></div>
+                        </div>
+                        <div class="hexagon3">
+                            <div class="rotate-squere231"></div>
+                            <div class="hexagon-text3">ইউনিয়ন পরিষদের চেয়ারম্যান</div>
+                            <div class="rotate-squere233"></div>
+                        </div>
+                    </div>
+                    <div class="hexagon-second">
+                        <div class="rotate-squere-second"></div>
+                        <div class="hexagon-text-second">
+                            <i class="fa-thin fa-tty"></i>
+                            <p>01552-484586</p>
+                        </div>
+                        <div class="rotate-squere-second2"></div>
+                    </div>
+                    <div class="hexagon-third">
+                        <div class="rotate-squere-third"></div>
+                        <div class="hexagon-text-third">
+                            <p>উপজেলা নির্বাহি অফিসার</p>
+                            <i class="fa-thin fa-tty"></i>
+                            <p>01552-484586</p>
+                        </div>
+                        <div class="rotate-squere-third2"></div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="left-bottom-wrapper">
+                <div class="bottom-left-wrapper">
+                    <div class="left-bottom-right-wrapper">
+                        <p>আয়োজনে</p>
+                    </div>
+                    <div class="left-bottom-right-wrapper">
+                        <p>সহযোগিতায়</p>
+                    </div>
+                </div>
+                <div class="bottom-right-wrapper">
+                    <p>উপজেলা প্রশাসন ব্রাহ্মণপাড়া কুমিল্লা</p>
+                    <p>উপজেলা পরিষদ ও উপজেলা স্বাস্থ্য ও পরিবার পরিকল্পনা অফিস</p>
+                </div>
+                <div class="bottom-left-image">
+                    <img src="./assest/img/download.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
 
 </html>
