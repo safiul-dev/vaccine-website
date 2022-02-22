@@ -234,7 +234,7 @@
                     <div class="col-12 sing_3box  col-sm-12 col-md-4 col-lg-4">
                         <div class="box_content_area_img">
                             <div class="imgage_area">
-                                <img src="assest/img/covid/vachine.png" alt="">
+                                <img src="assest/img/covid/download.png" alt="">
                             </div>
                             <div class="img_contneet_box">
                                 <p>কোভিড ১৯ টিকা নেওয়ার পর এই ওয়েবসাইট থেকে টিকা কার্ড ডাউনলোড করা যাবে ও উপজেলা
