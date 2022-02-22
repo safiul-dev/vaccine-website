@@ -20,14 +20,14 @@
                     </a>
                 </div>
                 <div>
-                    <h3>শতভাগ কোবিড টিকা প্রোগ্রাম</h3>
+                    <h3>শতভাগ কোভিড টিকা প্রোগ্রাম</h3>
                 </div>
                 <div>
                     <img src="assest/img/covid/mobib.png" alt="">
                 </div>
             </div>
             <div class="bottom-header">
-                <h3>শতভাগ কোবিড টিকা প্রোগ্রাম</h3>
+                <h3>শতভাগ কোভিড টিকা প্রোগ্রাম</h3>
             </div>
             <div class="tika-form">
                 <div class="form-group">
@@ -97,7 +97,7 @@
                     <table class="">
                         <thead>
                             <tr class="table-header">
-                                <th colspan="3">কোবিড ১৯ টিকা প্রদান সম্পর্কিত তথ্য</th>
+                                <th colspan="3">কোভিড ১৯ টিকা প্রদান সম্পর্কিত তথ্য</th>
                             </tr>
                             <tr class="table-header-bottom">
                                 <th colspan="1">টিকার ডোজ</th>
@@ -107,12 +107,12 @@
                         </thead>
                         <tbody>
                             <tr class="table-body-tr">
-                                <th scope="row">কোবিড ১৯ টিকা- প্রথম ডোজ</th>
+                                <th scope="row">কোভিড ১৯ টিকা- প্রথম ডোজ</th>
                                 <td class="table_td" rowspan="1"></td>
                                 <td class="table_td" rowspan="1"></td>
                             </tr>
                             <tr class="table-body-tr">
-                                <th scope="row">কোবিড ১৯ টিকা- প্রথম ডোজ</th>
+                                <th scope="row">কোভিড ১৯ টিকা- প্রথম ডোজ</th>
                                 <td class="table_td" rowspan="1"></td>
                                 <td class="table_td" rowspan="1"></td>
                             </tr>
@@ -158,12 +158,12 @@
             <div class="right-header">
 
                 <div>
-                    <h3>শতভাগ কোবিড টিকা প্রোগ্রাম</h3>
+                    <h3>শতভাগ কোভিড টিকা প্রোগ্রাম</h3>
                 </div>
 
             </div>
             <div class="bottom-header">
-                <h3>কোবিড ১৯ টিকা কার্ড </h3>
+                <h3>কোভিড ১৯ টিকা কার্ড </h3>
             </div>
             <div class="text">
 
@@ -171,7 +171,7 @@
                 <div class="text-inner-div">
                     <div class="text-angle">></div>
                     <div>
-                        <p class="text-p">কোবিড-১৯ টিকা নেয়ার জন্য নির্ধিষ্ট তারিকে নির্ধিষ্ট টিকাদান কেন্দ্রে এই টীকার
+                        <p class="text-p">কোভিড-১৯ টিকা নেয়ার জন্য নির্ধিষ্ট তারিকে নির্ধিষ্ট টিকাদান কেন্দ্রে এই টীকার
                             কার্ডটি সাথে নিয়ে আসুন |</p>
                     </div>
                 </div>
@@ -191,7 +191,7 @@
                 <div class="text-inner-div">
                     <div class="text-angle">></div>
                     <div>
-                        <p class="text-p">কোবিড-১৯ টাকা পেলেও যথাযথ শাস্তবিদি মেনে চলোন |</p>
+                        <p class="text-p">কোভিড-১৯ টাকা পেলেও যথাযথ শাস্তবিদি মেনে চলোন |</p>
                     </div>
                 </div>
                 <div class="text-inner-div">
@@ -207,7 +207,7 @@
 
             <div class="covid_information">
                 <div class="tottho">
-                    কোবিড-১৯ সংক্রান্ত তথ্যের জন্য যোগাযোগ করুন
+                    কোভিড-১৯ সংক্রান্ত তথ্যের জন্য যোগাযোগ করুন
                 </div>
                 <div class="cell-phone-main">
                     <div class="cell_phone"><i class="fas fa-phone-alt"></i></div>
