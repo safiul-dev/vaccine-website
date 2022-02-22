@@ -193,9 +193,8 @@
                                                                 </div>
                                                             </div>
                                                             <div class="submit_btn_area">
-                                                                <a href="./titkaCard.html"
-                                                                    class=" big_form_submit_btn">টিকা কার্ড
-                                                                    ডাউনলোড
+                                                                <a href="./titkaCard.php"
+                                                                    class="big_form_submit_btn">টিকা কার্ড ডাউনলোড
                                                                     করুন</a>
                                                             </div>
                                                         </form>
