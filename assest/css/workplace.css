@@ -132,8 +132,16 @@
     width: 135px;
 }
 
-.birtdy_3 input {
+.error {
+    color: red;
+    font-size: 1.rem;
+}
+
+.birtdy_3 select {
     text-align: center;
+    border: 2px solid #000;
+    padding: 13px 15px 13px 15px;
+    border-radius: 10px;
 }
 
 .submit_btn_area {
@@ -152,9 +160,27 @@
 .success_massage {
     text-align: center;
     margin-top: 50px;
+    display: none;
 }
 
 .success_massage h2 {
+    font-weight: 700;
+    background: #f3f9f2;
+    display: inline-block;
+    padding: 20px 50px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    font-size: 34px;
+    font-family: "SolaimanLipi";
+}
+
+.error_massage {
+    text-align: center;
+    margin-top: 50px;
+    display: none;
+}
+
+.error_massage h2 {
     font-weight: 700;
     background: #f3f9f2;
     display: inline-block;

@@ -173,7 +173,7 @@
                                                 </div>
                                             </form>
                                         </div>
-                                        <div class=" down_sucess">
+                                        <div class="down_sucess">
                                             <h2>
                                                 <div class="top_down_inf-">
                                                     <p>আপনার 019xxxxxx58 মোবাইল নাম্বারে OTP প্রেরণ করা হয়েছে। সর্বোচ্চ
@@ -193,8 +193,10 @@
                                                                 </div>
                                                             </div>
                                                             <div class="submit_btn_area">
-                                                                <button class=" big_form_submit_btn">টিকা কার্ড ডাউনলোড
-                                                                    করুন</button>
+                                                                <a href="./titkaCard.html"
+                                                                    class=" big_form_submit_btn">টিকা কার্ড
+                                                                    ডাউনলোড
+                                                                    করুন</a>
                                                             </div>
                                                         </form>
                                                     </div>
@@ -242,7 +244,7 @@
                                                 </div>
                                             </form>
                                         </div>
-                                        <div class=" down_sucess">
+                                        <div class="down_sucess">
                                             <h2>
                                                 <div class="top_down_inf-">
                                                     <p>আপনার 019xxxxxx58 মোবাইল নাম্বারে OTP প্রেরণ করা হয়েছে। সর্বোচ্চ

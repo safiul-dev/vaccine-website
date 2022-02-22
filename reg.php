@@ -148,27 +148,37 @@
                                     <div class="tab_content_area_s">
                                         <!-- tab  -->
                                         <div class="download_form_area">
-                                            <form action="#">
+                                            <form action="#" id="submit">
+                                                <span class="error"></span>
                                                 <div class="input_content">
                                                     <div class="single_input half_one">
                                                         <label for="nid_no">জাতীয় পরিচয় পত্রের নম্বর</label>
-                                                        <input type="text" id="nid_no"
+                                                        <input type="number" name="nid" id="nid_no"
                                                             placeholder="উদাহরণঃ ২০০২১৬৪৯৪৫৬৯৭৪৬১২">
+
                                                     </div>
                                                     <div class="single_input half_one">
                                                         <label for="birty">জন্ম তারিখ (জাতীয় পরিচয়পত্র
                                                             অনুযায়ী):</label>
                                                         <div class="bir_3_area">
                                                             <div class="birtdy_3">
-                                                                <input type="text" id="day" placeholder="দিন ">
+                                                                <select name="day" id="day">
+                                                                    <option selected>দিন</option>
+                                                                </select>
                                                             </div>
                                                             <div class="birtdy_3">
-                                                                <input type="text" id="month" placeholder="মাস">
+                                                                <select name="month" id="month">
+                                                                    <option selected>মাস</option>
+                                                                </select>
                                                             </div>
                                                             <div class="birtdy_3">
-                                                                <input type="text" id="Year" placeholder="বছর">
+                                                                <select name="year" id="Year">
+                                                                    <option selected>বছর</option>
+                                                                </select>
                                                             </div>
+
                                                         </div>
+
                                                     </div>
                                                 </div>
                                                 <div class="submit_btn_area">
@@ -179,6 +189,11 @@
                                         <div class="success_massage">
                                             <h2>
                                                 আপনার নিবন্ধন সফলভাবে সম্পন্ন হয়েছে
+                                            </h2>
+                                        </div>
+                                        <div class="error_massage">
+                                            <h2>
+                                                আপনার নিবন্ধন সম্পন্ন হয়নি
                                             </h2>
                                         </div>
                                         <!-- tab  -->
@@ -194,11 +209,12 @@
                                     <div class="tab_content_area_s">
                                         <!-- tab  -->
                                         <div class="download_form_area">
-                                            <form action="#">
+                                            <form action="#" id="submit-birth">
+                                                <span class="error"></span>
                                                 <div class="input_content">
                                                     <div class="single_input half_one">
                                                         <label for="nid_no">জন্ম নিবন্ধনসনদ পরিচয় পত্রের নম্বর</label>
-                                                        <input type="text" id="nid_no"
+                                                        <input type="text" id="nid_no2"
                                                             placeholder="উদাহরণঃ ২০০২১৬৪৯৪৫৬৯৭৪৬১২">
                                                     </div>
                                                     <div class="single_input half_one">
@@ -206,13 +222,19 @@
                                                             অনুযায়ী):</label>
                                                         <div class="bir_3_area">
                                                             <div class="birtdy_3">
-                                                                <input type="text" id="day" placeholder="দিন ">
+                                                                <select name="day" id="day2">
+                                                                    <option selected>দিন</option>
+                                                                </select>
                                                             </div>
                                                             <div class="birtdy_3">
-                                                                <input type="text" id="month" placeholder="মাস">
+                                                                <select name="month" id="month2">
+                                                                    <option selected>মাস</option>
+                                                                </select>
                                                             </div>
                                                             <div class="birtdy_3">
-                                                                <input type="text" id="Year" placeholder="বছর">
+                                                                <select name="year" id="Year2">
+                                                                    <option selected>বছর</option>
+                                                                </select>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -225,6 +247,11 @@
                                         <div class="success_massage">
                                             <h2>
                                                 আপনার নিবন্ধন সফলভাবে সম্পন্ন হয়েছে
+                                            </h2>
+                                        </div>
+                                        <div class="error_massage">
+                                            <h2>
+                                                আপনার নিবন্ধন সম্পন্ন হয়নি
                                             </h2>
                                         </div>
                                         <!-- tab  -->
@@ -239,11 +266,12 @@
                                     <div class="tab_content_area_s">
                                         <!-- tab  -->
                                         <div class="download_form_area">
-                                            <form action="#">
+                                            <form action="#" id="submit-pass">
+                                                <span class="error"></span>
                                                 <div class="input_content">
                                                     <div class="single_input half_one">
                                                         <label for="nid_no">পাসপোর্ট নম্বর</label>
-                                                        <input type="text" id="nid_no"
+                                                        <input type="text" id="nid_no3"
                                                             placeholder="উদাহরণঃ ২০০২১৬৪৯৪৫৬৯৭৪৬১২">
                                                     </div>
                                                     <div class="single_input half_one">
@@ -251,13 +279,19 @@
                                                             অনুযায়ী):</label>
                                                         <div class="bir_3_area">
                                                             <div class="birtdy_3">
-                                                                <input type="text" id="day" placeholder="দিন ">
+                                                                <select name="day" id="day3">
+                                                                    <option selected>দিন</option>
+                                                                </select>
                                                             </div>
                                                             <div class="birtdy_3">
-                                                                <input type="text" id="month" placeholder="মাস">
+                                                                <select name="month" id="month3">
+                                                                    <option selected>মাস</option>
+                                                                </select>
                                                             </div>
                                                             <div class="birtdy_3">
-                                                                <input type="text" id="Year" placeholder="বছর">
+                                                                <select name="year" id="Year3">
+                                                                    <option selected>বছর</option>
+                                                                </select>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -272,6 +306,11 @@
                                                 আপনার নিবন্ধন সফলভাবে সম্পন্ন হয়েছে
                                             </h2>
                                         </div>
+                                        <div class="error_massage">
+                                            <h2>
+                                                আপনার নিবন্ধন সম্পন্ন হয়নি
+                                            </h2>
+                                        </div>
                                         <!-- tab  -->
                                     </div>
                                     <!-- tab 2 content start ebd  -->
@@ -284,24 +323,32 @@
                                     <div class="tab_content_area_s">
                                         <!-- tab  -->
                                         <div class="download_form_area">
-                                            <form action="#">
+                                            <form action="#" id="submit-phone">
+                                                <span class="error"></span>
                                                 <div class="input_content">
                                                     <div class="single_input half_one">
                                                         <label for="nid_no">মোবাইল নাম্বার</label>
-                                                        <input type="text" id="nid_no" placeholder="+880100000">
+                                                        <input type="text" id="nid_no4"
+                                                            placeholder="উদাহরণঃ ০১৩xxxxxxx">
                                                     </div>
                                                     <div class="single_input half_one">
                                                         <label for="birty">জন্ম তারিখ (পাসপোর্ট পরিচয়পত্র
                                                             অনুযায়ী):</label>
                                                         <div class="bir_3_area">
                                                             <div class="birtdy_3">
-                                                                <input type="text" id="day" placeholder="দিন ">
+                                                                <select name="day" id="day4">
+                                                                    <option selected>দিন</option>
+                                                                </select>
                                                             </div>
                                                             <div class="birtdy_3">
-                                                                <input type="text" id="month" placeholder="মাস">
+                                                                <select name="month" id="month4">
+                                                                    <option selected>মাস</option>
+                                                                </select>
                                                             </div>
                                                             <div class="birtdy_3">
-                                                                <input type="text" id="Year" placeholder="বছর">
+                                                                <select name="year" id="Year4">
+                                                                    <option selected>বছর</option>
+                                                                </select>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -314,6 +361,11 @@
                                         <div class="success_massage">
                                             <h2>
                                                 আপনার নিবন্ধন সফলভাবে সম্পন্ন হয়েছে
+                                            </h2>
+                                        </div>
+                                        <div class="error_massage">
+                                            <h2>
+                                                আপনার নিবন্ধন সম্পন্ন হয়নি
                                             </h2>
                                         </div>
                                         <!-- tab  -->
@@ -401,6 +453,7 @@
     <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
     <script src="assest/js/packery-mode.pkgd.js"></script>
     <script src="assest/js/skript.js"></script>
+    <script src="./custom-script/reg.js"></script>
 </body>
 
 </html>
