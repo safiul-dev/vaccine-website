@@ -282,7 +282,7 @@
                     <p>উপজেলা পরিষদ ও উপজেলা স্বাস্থ্য ও পরিবার পরিকল্পনা অফিস</p>
                 </div>
                 <div class="bottom-left-image">
-                    <img src="assest/img/download.png" alt="">
+                    <img src="./assest/img/download.png" alt="">
                 </div>
             </div>
         </div>
