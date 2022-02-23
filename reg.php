@@ -65,7 +65,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">কোভিড টিকা প্রোগ্রাম</a>
+                            <a class="nav-link active" aria-current="page" href="./index.php">কোভিড টিকা প্রোগ্রাম</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">টিকা কেন্দ্র ও কমিটিসমূহ</a>

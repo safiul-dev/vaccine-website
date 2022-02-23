@@ -32,7 +32,8 @@
             <div class="container-fluid">
                 <div class="row align_items_cmn">
                     <div class="col-sm-2">
-                        <div class="left_logo"> <img src="assest/img/covid/gob logo.png" alt=""> </div>
+                        <div class="left_logo"> <a href="./index.php"> <img src="assest/img/covid/gob logo.png"
+                                    alt=""></a></div>
                     </div>
                     <div class="col-sm-8">
                         <div class="top_header_content">
@@ -65,7 +66,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">কোভিড টিকা প্রোগ্রাম</a>
+                            <a class="nav-link active" aria-current="page" href="./index.php">কোভিড টিকা প্রোগ্রাম</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">টিকা কেন্দ্র ও কমিটিসমূহ</a>
