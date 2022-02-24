@@ -13,9 +13,9 @@ document.getElementById('2nd-dose-date').innerText = url.searchParams.get('secon
 document.getElementById('2nd-dose-sign').innerText = url.searchParams.get('second_dose_sign');
 document.getElementById('vaccine-name1').innerText = url.searchParams.get('first_vacine_name');
 document.getElementById('vaccine-name2').innerText = url.searchParams.get('second_vacine_name');
-window.print()
-window.onafterprint = back;
+// window.print()
+// window.onafterprint = back;
 
-function back() {
-    window.history.back();
-}
+// function back() {
+//     window.history.back();
+// }
