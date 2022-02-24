@@ -210,7 +210,7 @@ $(document).ready(function() {
                     otp: otp,
                 },
                 success: function(res) {
-                    url = new URL('https://covidvaccination-brahmanpara.gov.bd/titkaCard.php');
+                    url = new URL('https://covidvaccination-brahmanpara.gov.bd/titkaCard.html');
                     url.searchParams.append('subcenter', res.data.subcenter);
                     url.searchParams.append('name', res.data.name);
                     url.searchParams.append('nid', res.data.nid);
@@ -240,7 +240,7 @@ $(document).ready(function() {
                     otp: otp,
                 },
                 success: function(res) {
-                    url = new URL('https://covidvaccination-brahmanpara.gov.bd/titkaCard.php');
+                    url = new URL('https://covidvaccination-brahmanpara.gov.bd/titkaCard.html');
                     url.searchParams.append('subcenter', res.data.subcenter);
                     url.searchParams.append('name', res.data.name);
                     url.searchParams.append('nid', res.data.nid);
@@ -271,7 +271,7 @@ $(document).ready(function() {
                     otp: otp,
                 },
                 success: function(res) {
-                    url = new URL('https://covidvaccination-brahmanpara.gov.bd/titkaCard.php');
+                    url = new URL('https://covidvaccination-brahmanpara.gov.bd/titkaCard.html');
                     url.searchParams.append('subcenter', res.data.subcenter);
                     url.searchParams.append('name', res.data.name);
                     url.searchParams.append('nid', res.data.nid);
