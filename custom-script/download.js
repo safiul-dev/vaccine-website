@@ -271,7 +271,7 @@ $(document).ready(function() {
                     otp: otp,
                 },
                 success: function(res) {
-                    url = new URL('https://covidvaccination-brahmanpara.gov.bd/titkaCard.html');
+                    url = new URL('https://covidvaccination-brahmanpara.gov.bd/tikaCard.html');
                     url.searchParams.append('subcenter', res.data.subcenter);
                     url.searchParams.append('name', res.data.name);
                     url.searchParams.append('nid', res.data.nid);
