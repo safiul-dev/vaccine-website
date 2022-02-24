@@ -72,7 +72,10 @@ body {
 .bottom-header {
     width: 100%;
     height: 40px;
-    background: linear-gradient(to right, #3E8F17, #67C318);
+    background: -webkit-linear-gradient(to right, #3E8F17, #67C318);
+    background: -moz-linear-gradient(to right, #3E8F17, #67C318);
+    background: -o-linear-gradient(to right, #3E8F17, #67C318);
+    background: -ms-linear-gradient(to right, #3E8F17, #67C318);
     display: flex;
     justify-content: center;
     align-items: center;
