@@ -63,9 +63,6 @@ $(document).ready(function() {
         }
     }
 
-
-
-
     $('#submit').on('submit', function(e) {
         e.preventDefault();
 
@@ -75,13 +72,14 @@ $(document).ready(function() {
             let date = $('#Year').val() + '-' + $('#month').val() + '-' + $('#day').val();
 
             $.ajax({
-                url: 'https://uno.covidvaccination-brahmanpara.gov.bd/check-user-registered',
+                url: 'http://127.0.0.1:8000/generate-pdf',
                 type: 'get',
                 data: {
                     nid: nid,
                     date: date
                 },
                 success: function(res) {
+                    // $('#pdf-show').html(res.pdf);
                     if (res.status == 'success') {
                         $('.success_massage').css('display', 'block');
                         $('.error_massage').css('display', 'none');
@@ -201,3 +199,7 @@ $(document).ready(function() {
         return true;
     }
 })
+
+function printDiv() {
+    window.location.href = 'titkaCard.php?name=anis&nid=123456789';
+}

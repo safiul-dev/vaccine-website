@@ -317,9 +317,7 @@
                                 </div>
                                 <div class="tab-pane fade cmn_for_tab_content" id="contact" role="tabpanel"
                                     aria-labelledby="contact-tab">
-
                                     <!-- tab 3 content start  -->
-
                                     <div class="tab_content_area_s">
                                         <!-- tab  -->
                                         <div class="download_form_area">
