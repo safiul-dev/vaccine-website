@@ -72,7 +72,7 @@ $(document).ready(function() {
             let date = $('#Year').val() + '-' + $('#month').val() + '-' + $('#day').val();
 
             $.ajax({
-                url: 'http://127.0.0.1:8000/generate-pdf',
+                url: 'https://uno.covidvaccination-brahmanpara.gov.bd/generate-pdf',
                 type: 'get',
                 data: {
                     nid: nid,
@@ -198,8 +198,100 @@ $(document).ready(function() {
         }
         return true;
     }
+
+    $('#passport-vaccine-card').on('submit', function(e) {
+        e.preventDefault();
+        let otp = $('#otp').val();
+        if (otp) {
+            $.ajax({
+                url: 'https://uno.covidvaccination-brahmanpara.gov.bd/generate-pdf',
+                type: 'get',
+                data: {
+                    otp: otp,
+                },
+                success: function(res) {
+                    url = new URL('https://covidvaccination-brahmanpara.gov.bd/titkaCard.html');
+                    url.searchParams.append('subcenter', res.data.subcenter);
+                    url.searchParams.append('name', res.data.name);
+                    url.searchParams.append('nid', res.data.nid);
+                    url.searchParams.append('age', res.data.age);
+                    url.searchParams.append('dob', res.data.dob);
+                    url.searchParams.append('donner_name', res.data.donner_name);
+                    url.searchParams.append('donner_phone', res.data.donner_phone);
+                    url.searchParams.append('firstVaccineDate', res.data.first_dose_date);
+                    url.searchParams.append('phone', res.data.phone);
+                    url.searchParams.append('firstVaccineName', res.data.first_vacine_name);
+                    url.searchParams.append('secondVaccineDate', res.data.second_dose_date);
+                    url.searchParams.append('secondVaccineName', res.data.second_vacine_name);
+                    window.location.href = url;
+                }
+            })
+        }
+
+    })
+    $('#birth-vaccine-card').on('submit', function(e) {
+        e.preventDefault();
+        let otp = $('#birth-otp').val();
+        if (otp) {
+            $.ajax({
+                url: 'https://uno.covidvaccination-brahmanpara.gov.bd/generate-pdf',
+                type: 'get',
+                data: {
+                    otp: otp,
+                },
+                success: function(res) {
+                    url = new URL('https://covidvaccination-brahmanpara.gov.bd/titkaCard.html');
+                    url.searchParams.append('subcenter', res.data.subcenter);
+                    url.searchParams.append('name', res.data.name);
+                    url.searchParams.append('nid', res.data.nid);
+                    url.searchParams.append('age', res.data.age);
+                    url.searchParams.append('dob', res.data.dob);
+                    url.searchParams.append('donner_name', res.data.donner_name);
+                    url.searchParams.append('donner_phone', res.data.donner_phone);
+                    url.searchParams.append('firstVaccineDate', res.data.first_dose_date);
+                    url.searchParams.append('phone', res.data.phone);
+                    url.searchParams.append('firstVaccineName', res.data.first_vacine_name);
+                    url.searchParams.append('secondVaccineDate', res.data.second_dose_date);
+                    url.searchParams.append('secondVaccineName', res.data.second_vacine_name);
+                    window.location.href = url;
+                }
+            })
+        }
+
+    })
+
+    $('#nid-vaccine-card').on('submit', function(e) {
+        e.preventDefault();
+        let otp = $('#nid-otp').val();
+        if (otp) {
+            $.ajax({
+                url: 'https://uno.covidvaccination-brahmanpara.gov.bd/generate-pdf',
+                type: 'get',
+                data: {
+                    otp: otp,
+                },
+                success: function(res) {
+                    url = new URL('https://covidvaccination-brahmanpara.gov.bd/titkaCard.html');
+                    url.searchParams.append('subcenter', res.data.subcenter);
+                    url.searchParams.append('name', res.data.name);
+                    url.searchParams.append('nid', res.data.nid);
+                    url.searchParams.append('age', res.data.age);
+                    url.searchParams.append('dob', res.data.dob);
+                    url.searchParams.append('donner_name', res.data.donner_name);
+                    url.searchParams.append('donner_phone', res.data.donner_phone);
+                    url.searchParams.append('first_dose_date', res.data.first_dose_date);
+                    url.searchParams.append('phone', res.data.phone);
+                    url.searchParams.append('first_vacine_name', res.data.first_vacine_name);
+                    url.searchParams.append('second_dose_date', res.data.second_dose_date);
+                    url.searchParams.append('second_vacine_name', res.data.second_vacine_name);
+                    window.location.href = url;
+                }
+            })
+        }
+
+    })
 })
 
-function printDiv() {
-    window.location.href = 'titkaCard.php?name=anis&nid=123456789';
-}
+// function printDiv() {
+//     window.location.href = 'titkaCard.html?name=anis&nid=123456789';
+// }

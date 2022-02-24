@@ -6,8 +6,8 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-family: 'SolaimanLipi';
+    font-size: 22px;
     background: #f5f5f5;
 }
 
@@ -28,11 +28,15 @@ body {
 
 .left-wrepper .header {
     height: 80px;
-    color: rgb(4, 139, 44);
-    font-size: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
+}
+
+.left-wrepper .header h3 {
+    color: rgb(4, 139, 44);
+    font-size: 25px;
     font-family: 'Li Sirajee Sheikh Unicode' !important;
 }
 
@@ -50,11 +54,15 @@ body {
 .right-header {
     height: 80px;
     text-align: center;
-    color: rgb(4, 139, 44);
-    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.right-header h3 {
+    text-align: center;
+    color: rgb(4, 139, 44);
+    font-size: 25px;
     font-family: 'Li Sirajee Sheikh Unicode' !important;
 }
 
@@ -82,11 +90,11 @@ body {
 }
 
 .label-div {
-    width: 54%;
+    width: 46%;
 }
 
 .input-div {
-    width: 46%;
+    width: 54%;
 }
 
 .label-div-name {
@@ -122,7 +130,7 @@ body {
 }
 
 .form-label {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -130,6 +138,7 @@ body {
     outline: none;
     border: none;
     border-bottom: 1px dotted rgb(14, 12, 12);
+    font-size: 16px;
     width: 100%;
     padding-left: 2px;
     padding-right: 2px;
@@ -143,7 +152,7 @@ body {
 .tikada_tottho {
     text-align: center;
     text-decoration: underline;
-    font-size: .9rem;
+    font-size: 1.5rem;
 }
 
 .table-div {
@@ -165,13 +174,16 @@ body {
 }
 
 .table-header th {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 12px;
+    font-weight: normal;
 }
 
 .table-header-bottom {
-    font-size: 10px;
+    font-size: 12px;
     background: #F4DDB3;
+    font-weight: normal;
 }
 
 .table-header-bottom th {
@@ -183,7 +195,8 @@ body {
 .table-body-tr {}
 
 .table-body-tr th {
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: 500;
     padding-top: 5px;
     padding-bottom: 5px;
     border-right: 1px solid rgb(14, 12, 12);
@@ -191,7 +204,6 @@ body {
 }
 
 .table_td {
-    font-size: 10px;
     border-right: 1px solid rgb(14, 12, 12);
     border-bottom: 1px solid rgb(14, 12, 12);
     padding-top: 25px;
@@ -204,7 +216,8 @@ body {
 
 .rd_td_wrapper_main {
     width: 100%;
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: 500;
 }
 
 .rd_td_wrapper {
@@ -236,7 +249,7 @@ body {
 }
 
 .text-inner-div {
-    font-size: 12px;
+    font-size: 16px;
     margin-bottom: 10px;
     font-weight: bold;
     display: flex;
@@ -334,6 +347,10 @@ body {
     margin-right: 20px;
 }
 
+.sign_inner_div p {
+    font-size: 16px;
+}
+
 .sign_input {
     outline: none;
     border: none;
@@ -345,13 +362,17 @@ body {
 .right-bottom-header {
     width: 100%;
     margin-top: 5px;
-    font-size: 11px;
-    font-weight: 500;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 3px;
     padding-right: 3px;
     background-color: #F6A6AA;
+}
+
+.right-bottom-header p {
+    font-size: .95rem;
+    font-weight: 500;
+    padding: 0px 5px 0px 5px;
 }
 
 .eccho-main {
@@ -363,17 +384,17 @@ body {
 
 .eccho-text {
     margin-left: 5px;
-    width: 31%;
+    width: 28%;
 }
 
 .eccho-text p {
     padding-bottom: 5px;
     color: #2F74A2;
-    font-size: 10px;
+    font-size: .8rem;
 }
 
 .eccho-box {
-    width: 69%;
+    width: 72%;
     margin-left: 5px;
     display: flex;
     flex-direction: column;
@@ -403,7 +424,8 @@ body {
 
 .hexagon-text {
     width: 85px;
-    font-size: 9px;
+    font-size: 12px;
+    text-align: center;
     background-color: #B2F764;
     border-top: 1px solid #8EAA7D;
     border-bottom: 1px solid #8EAA7D;
@@ -446,7 +468,7 @@ body {
 
 .hexagon-text2 {
     width: 98px;
-    font-size: 9px;
+    font-size: 12px;
     background-color: #B2F764;
     border-top: 1px solid #8EAA7D;
     border-bottom: 1px solid #8EAA7D;
@@ -454,6 +476,7 @@ body {
     position: absolute;
     padding-top: 1px;
     padding-bottom: 1px;
+    text-align: center;
 }
 
 .rotate-squere23 {
@@ -489,7 +512,7 @@ body {
 
 .hexagon-text3 {
     width: 120px;
-    font-size: 9px;
+    font-size: 12px;
     background-color: #B2F764;
     border-top: 1px solid #8EAA7D;
     border-bottom: 1px solid #8EAA7D;
@@ -497,6 +520,7 @@ body {
     position: absolute;
     padding-top: 1px;
     padding-bottom: 1px;
+    text-align: center;
 }
 
 .rotate-squere233 {
@@ -522,8 +546,8 @@ body {
     background-color: #B2F764;
     border-left: 1px solid #8EAA7D;
     border-bottom: 1px solid #8EAA7D;
-    height: 12px;
-    width: 12px;
+    height: 14px;
+    width: 14px;
     transform: rotate(45deg);
     margin-top: 2px;
     position: relative;
@@ -532,7 +556,7 @@ body {
 
 .hexagon-text-second {
     width: 300px;
-    font-size: 9px;
+    font-size: 12px;
     background-color: #B2F764;
     border-top: 1px solid #8EAA7D;
     border-bottom: 1px solid #8EAA7D;
@@ -542,6 +566,7 @@ body {
     padding-bottom: 2px;
     display: flex;
     justify-content: end;
+    align-items: center;
 }
 
 .hexagon-text-second p {
@@ -557,12 +582,12 @@ body {
     background-color: #B2F764;
     border-right: 1px solid #8EAA7D;
     border-top: 1px solid #8EAA7D;
-    height: 12px;
-    width: 12px;
+    height: 14px;
+    width: 14px;
     transform: rotate(45deg);
     margin-top: 2px;
     position: relative;
-    left: 283px;
+    left: 278px;
     z-index: -500;
 }
 
@@ -585,8 +610,8 @@ body {
 }
 
 .hexagon-text-third {
-    width: 185px;
-    font-size: 9px;
+    width: 195px;
+    font-size: 12px;
     background-color: #B2F764;
     border-top: 1px solid #8EAA7D;
     border-bottom: 1px solid #8EAA7D;
@@ -611,12 +636,12 @@ body {
     background-color: #B2F764;
     border-right: 1px solid #8EAA7D;
     border-top: 1px solid #8EAA7D;
-    height: 14px;
+    height: 16px;
     width: 14px;
     transform: rotate(45deg);
     margin-top: 2px;
     position: relative;
-    left: 165px;
+    left: 173px;
     z-index: -500;
 }
 
@@ -632,6 +657,7 @@ body {
     margin-right: 8px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .left-bottom-right-wrapper {
@@ -646,14 +672,14 @@ body {
 
 .left-bottom-right-wrapper p {
     margin-right: 10px;
-    font-size: 11px;
+    font-size: 14px;
     font-weight: bold;
     padding-top: 2px;
     padding-bottom: 2px;
 }
 
 .bottom-right-wrapper p {
-    font-size: 11px;
+    font-size: 16px;
     font-weight: 900;
     padding-top: 2px;
     padding-bottom: 2px;
