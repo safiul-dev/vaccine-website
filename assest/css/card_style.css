@@ -72,11 +72,8 @@ body {
 #grad1 {
     width: 100%;
     height: 40px;
-    background-color: red;
-    /* For browsers that do not support gradients */
-    background-image: linear-gradient(red, yellow);
     /* background: red !important; */
-    /* background-image: linear-gradient(to right, #3E8F17, #67C318); */
+    background-image: linear-gradient(to right, #3E8F17, #67C318);
     /* background: -moz-linear-gradient(to right, #3E8F17, #67C318);
     background: -o-linear-gradient(to right, #3E8F17, #67C318);
     background: -ms-linear-gradient(to right, #3E8F17, #67C318); */
