@@ -79,8 +79,13 @@ $(document).ready(function() {
                     date: date
                 },
                 success: function(res) {
-                    $('#nid-otp').val(Math.floor(Math.random() * (9999 - 1000) + 1000));
-                    $('#userId').val(res.data);
+                    if (res.status = 'success') {
+                        $('#nid-otp').val(Math.floor(Math.random() * (9999 - 1000) + 1000));
+                        $('#userId').val(res.data);
+                    } else {
+                        alert('আপনার নিবন্ধন সম্পন্ন নয়');
+                    }
+
                 }
             })
         }
@@ -103,8 +108,13 @@ $(document).ready(function() {
                     date: date
                 },
                 success: function(res) {
-                    $('#pass-otp').val(Math.floor(Math.random() * (9999 - 1000) + 1000));
-                    $('#userId').val(res.data);
+                    if (res.status = 'success') {
+                        $('#pass-otp').val(Math.floor(Math.random() * (9999 - 1000) + 1000));
+                        $('#userId').val(res.data);
+                    } else {
+                        alert('আপনার নিবন্ধন সম্পন্ন নয়');
+                    }
+
                 }
             })
         }
@@ -126,8 +136,13 @@ $(document).ready(function() {
                     date: date
                 },
                 success: function(res) {
-                    $('#birth-otp').val(Math.floor(Math.random() * (9999 - 1000) + 1000));
-                    $('#userId').val(res.data);
+                    if (res.status = 'success') {
+                        $('#birth-otp').val(Math.floor(Math.random() * (9999 - 1000) + 1000));
+                        $('#userId').val(res.data);
+                    } else {
+                        alert('আপনার নিবন্ধন সম্পন্ন নয়');
+                    }
+
                 }
             })
         }
@@ -182,13 +197,13 @@ $(document).ready(function() {
 
     $('#passport-vaccine-card').on('submit', function(e) {
         e.preventDefault();
-        let otp = $('#otp').val();
+        let otp = $('#userId').val()
         if (otp) {
             $.ajax({
                 url: 'https://uno.covidvaccination-brahmanpara.gov.bd/generate-pdf',
                 type: 'get',
                 data: {
-                    otp: $('#userId').val(),
+                    otp: otp,
                 },
                 success: function(res) {
                     url = new URL('https://covidvaccination-brahmanpara.gov.bd/titkaCard.html');
@@ -209,16 +224,16 @@ $(document).ready(function() {
             })
         }
 
-    })
-    $('#birth-vaccine-card').on('submit', function(e) {
+    }) $('#birth-vaccine-card').on('submit', function(e) {
         e.preventDefault();
-        let otp = $('#birth-otp').val();
+        // let otp = $('#birth-otp').val();
+        let otp = $('#userId').val()
         if (otp) {
             $.ajax({
                 url: 'https://uno.covidvaccination-brahmanpara.gov.bd/generate-pdf',
                 type: 'get',
                 data: {
-                    otp: $('#userId').val(),
+                    otp: otp,
                 },
                 success: function(res) {
                     url = new URL('https://covidvaccination-brahmanpara.gov.bd/titkaCard.html');
@@ -243,14 +258,14 @@ $(document).ready(function() {
 
     $('#nid-vaccine-card').on('submit', function(e) {
         e.preventDefault();
-        let otp = $('#nid-otp').val();
-
+        // let otp = $('#nid-otp').val();
+        let otp = $('#userId').val()
         if (otp) {
             $.ajax({
                 url: 'https://uno.covidvaccination-brahmanpara.gov.bd/generate-pdf',
                 type: 'get',
                 data: {
-                    otp: $('#userId').val(),
+                    otp: otp,
                 },
                 success: function(res) {
                     url = new URL('https://covidvaccination-brahmanpara.gov.bd/tikaCard.html');
