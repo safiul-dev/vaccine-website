@@ -257,6 +257,7 @@ $(document).ready(function() {
         e.preventDefault();
         // let otp = $('#nid-otp').val();
         let otp = $('#userId').val()
+        console.log(otp)
         if (otp) {
             $.ajax({
                 url: 'https://uno.covidvaccination-brahmanpara.gov.bd/generate-pdf',
