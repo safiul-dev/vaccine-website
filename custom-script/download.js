@@ -83,7 +83,7 @@ $(document).ready(function() {
                         $('#nid-otp').val(Math.floor(Math.random() * (9999 - 1000) + 1000));
                         $('#userId').val(res.data);
                     } else {
-                        alert('আপনার নিবন্ধন সম্পন্ন নয়');
+                        $('.error').html('<div class="alert alert-danger">আপনার তথ্যসমূহ সঠিক নয়। দয়া করে পুনরায় তথ্য দিন</div>');
                     }
 
                 }
@@ -112,7 +112,7 @@ $(document).ready(function() {
                         $('#pass-otp').val(Math.floor(Math.random() * (9999 - 1000) + 1000));
                         $('#userId').val(res.data);
                     } else {
-                        alert('আপনার নিবন্ধন সম্পন্ন নয়');
+                        $('.error').html('<div class="alert alert-danger"> আপনার তথ্যসমূহ সঠিক নয়। দয়া করে পুনরায় তথ্য দিন </div>');
                     }
 
                 }
@@ -140,7 +140,7 @@ $(document).ready(function() {
                         $('#birth-otp').val(Math.floor(Math.random() * (9999 - 1000) + 1000));
                         $('#userId').val(res.data);
                     } else {
-                        alert('আপনার নিবন্ধন সম্পন্ন নয়');
+                        $('.error').html('<div class="alert alert-danger">আপনার তথ্যসমূহ সঠিক নয়। দয়া করে পুনরায় তথ্য দিন</div>');
                     }
 
                 }
