@@ -224,7 +224,8 @@ $(document).ready(function() {
             })
         }
 
-    }) $('#birth-vaccine-card').on('submit', function(e) {
+    })
+    $('#birth-vaccine-card').on('submit', function(e) {
         e.preventDefault();
         // let otp = $('#birth-otp').val();
         let otp = $('#userId').val()
