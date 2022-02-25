@@ -72,22 +72,15 @@ $(document).ready(function() {
             let date = $('#Year').val() + '-' + $('#month').val() + '-' + $('#day').val();
 
             $.ajax({
-                url: 'https://uno.covidvaccination-brahmanpara.gov.bd/generate-pdf',
+                url: 'https://uno.covidvaccination-brahmanpara.gov.bd/check-user-registered',
                 type: 'get',
                 data: {
                     nid: nid,
                     date: date
                 },
                 success: function(res) {
-                    // $('#pdf-show').html(res.pdf);
-                    if (res.status == 'success') {
-                        $('.success_massage').css('display', 'block');
-                        $('.error_massage').css('display', 'none');
-                    } else {
-                        $('.error_massage').css('display', 'block');
-                        $('.success_massage').css('display', 'none');
-                    }
-
+                    $('#nid-otp').val(Math.floor(Math.random() * (9999 - 1000) + 1000));
+                    $('#userId').val(res.data);
                 }
             })
         }
@@ -110,14 +103,8 @@ $(document).ready(function() {
                     date: date
                 },
                 success: function(res) {
-                    if (res.status == 'success') {
-                        $('.success_massage').css('display', 'block');
-                        $('.error_massage').css('display', 'none');
-                    } else {
-                        $('.error_massage').css('display', 'block');
-                        $('.success_massage').css('display', 'none');
-                    }
-
+                    $('#pass-otp').val(Math.floor(Math.random() * (9999 - 1000) + 1000));
+                    $('#userId').val(res.data);
                 }
             })
         }
@@ -139,14 +126,8 @@ $(document).ready(function() {
                     date: date
                 },
                 success: function(res) {
-                    if (res.status == 'success') {
-                        $('.success_massage').css('display', 'block');
-                        $('.error_massage').css('display', 'none');
-                    } else {
-                        $('.error_massage').css('display', 'block');
-                        $('.success_massage').css('display', 'none');
-                    }
-
+                    $('#birth-otp').val(Math.floor(Math.random() * (9999 - 1000) + 1000));
+                    $('#userId').val(res.data);
                 }
             })
         }
@@ -207,7 +188,7 @@ $(document).ready(function() {
                 url: 'https://uno.covidvaccination-brahmanpara.gov.bd/generate-pdf',
                 type: 'get',
                 data: {
-                    otp: otp,
+                    otp: $('#userId').val(),
                 },
                 success: function(res) {
                     url = new URL('https://covidvaccination-brahmanpara.gov.bd/titkaCard.html');
@@ -237,7 +218,7 @@ $(document).ready(function() {
                 url: 'https://uno.covidvaccination-brahmanpara.gov.bd/generate-pdf',
                 type: 'get',
                 data: {
-                    otp: otp,
+                    otp: $('#userId').val(),
                 },
                 success: function(res) {
                     url = new URL('https://covidvaccination-brahmanpara.gov.bd/titkaCard.html');
@@ -263,12 +244,13 @@ $(document).ready(function() {
     $('#nid-vaccine-card').on('submit', function(e) {
         e.preventDefault();
         let otp = $('#nid-otp').val();
+
         if (otp) {
             $.ajax({
                 url: 'https://uno.covidvaccination-brahmanpara.gov.bd/generate-pdf',
                 type: 'get',
                 data: {
-                    otp: otp,
+                    otp: $('#userId').val(),
                 },
                 success: function(res) {
                     url = new URL('https://covidvaccination-brahmanpara.gov.bd/tikaCard.html');
