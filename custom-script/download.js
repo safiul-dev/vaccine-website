@@ -79,7 +79,7 @@ $(document).ready(function() {
                     date: date
                 },
                 success: function(res) {
-                    if (res.status = 'success') {
+                    if (res.status) {
                         $('#nid-otp').val(Math.floor(Math.random() * (9999 - 1000) + 1000));
                         $('#userId').val(res.data);
                     } else {
@@ -108,7 +108,7 @@ $(document).ready(function() {
                     date: date
                 },
                 success: function(res) {
-                    if (res.status = 'success') {
+                    if (res.status) {
                         $('#pass-otp').val(Math.floor(Math.random() * (9999 - 1000) + 1000));
                         $('#userId').val(res.data);
                     } else {
@@ -136,7 +136,7 @@ $(document).ready(function() {
                     date: date
                 },
                 success: function(res) {
-                    if (res.status = 'success') {
+                    if (res.status) {
                         $('#birth-otp').val(Math.floor(Math.random() * (9999 - 1000) + 1000));
                         $('#userId').val(res.data);
                     } else {
