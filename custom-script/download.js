@@ -212,10 +212,8 @@ $(document).ready(function() {
                     url.searchParams.append('nid', res.data.nid);
                     url.searchParams.append('age', res.data.age);
                     url.searchParams.append('dob', res.data.dob);
-                    url.searchParams.append('donner_name', res.data.donner_name);
-                    url.searchParams.append('donner_phone', res.data.donner_phone);
                     url.searchParams.append('firstVaccineDate', res.data.first_dose_date);
-                    url.searchParams.append('phone', res.data.phone);
+                    url.searchParams.append('phone', res.data.mobile);
                     url.searchParams.append('firstVaccineName', res.data.first_vacine_name);
                     url.searchParams.append('secondVaccineDate', res.data.second_dose_date);
                     url.searchParams.append('secondVaccineName', res.data.second_vacine_name);
@@ -243,8 +241,6 @@ $(document).ready(function() {
                     url.searchParams.append('nid', res.data.nid);
                     url.searchParams.append('age', res.data.age);
                     url.searchParams.append('dob', res.data.dob);
-                    url.searchParams.append('donner_name', res.data.donner_name);
-                    url.searchParams.append('donner_phone', res.data.donner_phone);
                     url.searchParams.append('firstVaccineDate', res.data.first_dose_date);
                     url.searchParams.append('phone', res.data.phone);
                     url.searchParams.append('firstVaccineName', res.data.first_vacine_name);
@@ -275,8 +271,6 @@ $(document).ready(function() {
                     url.searchParams.append('nid', res.data.nid);
                     url.searchParams.append('age', res.data.age);
                     url.searchParams.append('dob', res.data.dob);
-                    url.searchParams.append('donner_name', res.data.donner_name);
-                    url.searchParams.append('donner_phone', res.data.donner_phone);
                     url.searchParams.append('first_dose_date', res.data.first_dose_date);
                     url.searchParams.append('phone', res.data.phone);
                     url.searchParams.append('first_vacine_name', res.data.first_vacine_name);
