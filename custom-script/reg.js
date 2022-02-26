@@ -10,7 +10,7 @@ $(document).ready(function() {
             $('#month').append('<option value="' + (i + 1) + '">' + months[i] + '</option>');
         }
 
-        for (let i = 2018; i > 1950; i--) {
+        for (let i = 2018; i > 1910; i--) {
             $('#Year').append('<option value="' + i + '">' + etob(i) + '</option>');
         }
 
@@ -22,7 +22,7 @@ $(document).ready(function() {
             $('#month2').append('<option value="' + (i + 1) + '">' + months[i] + '</option>');
         }
 
-        for (let i = 2018; i > 1950; i--) {
+        for (let i = 2018; i > 1910; i--) {
             $('#Year2').append('<option value="' + i + '">' + etob(i) + '</option>');
         }
         for (var i = 1; i < 32; i++) {
@@ -33,7 +33,7 @@ $(document).ready(function() {
             $('#month3').append('<option value="' + (i + 1) + '">' + months[i] + '</option>');
         }
 
-        for (let i = 2018; i > 1950; i--) {
+        for (let i = 2018; i > 1910; i--) {
             $('#Year3').append('<option value="' + i + '">' + etob(i) + '</option>');
         }
         for (var i = 1; i < 32; i++) {
@@ -44,7 +44,7 @@ $(document).ready(function() {
             $('#month4').append('<option value="' + (i + 1) + '">' + months[i] + '</option>');
         }
 
-        for (let i = 2018; i > 1950; i--) {
+        for (let i = 2018; i > 1910; i--) {
             $('#Year4').append('<option value="' + i + '">' + etob(i) + '</option>');
         }
     }

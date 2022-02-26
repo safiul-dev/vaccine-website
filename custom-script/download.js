@@ -10,7 +10,7 @@ $(document).ready(function() {
             $('#month').append('<option value="' + (i + 1) + '">' + months[i] + '</option>');
         }
 
-        for (let i = 2018; i > 1950; i--) {
+        for (let i = 2018; i > 1910; i--) {
             $('#Year').append('<option value="' + i + '">' + etob(i) + '</option>');
         }
 
@@ -22,7 +22,7 @@ $(document).ready(function() {
             $('#month2').append('<option value="' + (i + 1) + '">' + months[i] + '</option>');
         }
 
-        for (let i = 2018; i > 1950; i--) {
+        for (let i = 2018; i > 1910; i--) {
             $('#Year2').append('<option value="' + i + '">' + etob(i) + '</option>');
         }
         for (var i = 1; i < 32; i++) {
@@ -33,7 +33,7 @@ $(document).ready(function() {
             $('#month3').append('<option value="' + (i + 1) + '">' + months[i] + '</option>');
         }
 
-        for (let i = 2018; i > 1950; i--) {
+        for (let i = 2018; i > 1910; i--) {
             $('#Year3').append('<option value="' + i + '">' + etob(i) + '</option>');
         }
     }
@@ -206,17 +206,18 @@ $(document).ready(function() {
                     otp: otp,
                 },
                 success: function(res) {
-                    url = new URL('https://covidvaccination-brahmanpara.gov.bd/titkaCard.html');
+                    url = new URL('https://covidvaccination-brahmanpara.gov.bd/tikaCard.html');
                     url.searchParams.append('subcenter', res.data.subcenter);
                     url.searchParams.append('name', res.data.name);
                     url.searchParams.append('nid', res.data.nid);
                     url.searchParams.append('age', res.data.age);
-                    url.searchParams.append('dob', res.data.dob);
-                    url.searchParams.append('firstVaccineDate', res.data.first_dose_date);
-                    url.searchParams.append('phone', res.data.mobile);
-                    url.searchParams.append('firstVaccineName', res.data.first_vacine_name);
-                    url.searchParams.append('secondVaccineDate', res.data.second_dose_date);
-                    url.searchParams.append('secondVaccineName', res.data.second_vacine_name);
+                    url.searchParams.append('subcenter', res.data.subcenter);
+                    url.searchParams.append('dob', dateToNormal(res.data.dob));
+                    url.searchParams.append('first_dose_date', dateToNormal(res.data.first_dose_date));
+                    url.searchParams.append('phone', etob(res.data.mobile));
+                    url.searchParams.append('first_vacine_name', res.data.first_vacine_name);
+                    url.searchParams.append('second_dose_date', dateToNormal(res.data.second_dose_date));
+                    url.searchParams.append('second_vacine_name', res.data.second_vacine_name);
                     window.location.href = url;
                 }
             })
@@ -235,17 +236,18 @@ $(document).ready(function() {
                     otp: otp,
                 },
                 success: function(res) {
-                    url = new URL('https://covidvaccination-brahmanpara.gov.bd/titkaCard.html');
+                    url = new URL('https://covidvaccination-brahmanpara.gov.bd/tikaCard.html');
                     url.searchParams.append('subcenter', res.data.subcenter);
                     url.searchParams.append('name', res.data.name);
                     url.searchParams.append('nid', res.data.nid);
                     url.searchParams.append('age', res.data.age);
-                    url.searchParams.append('dob', res.data.dob);
-                    url.searchParams.append('firstVaccineDate', res.data.first_dose_date);
-                    url.searchParams.append('phone', res.data.phone);
-                    url.searchParams.append('firstVaccineName', res.data.first_vacine_name);
-                    url.searchParams.append('secondVaccineDate', res.data.second_dose_date);
-                    url.searchParams.append('secondVaccineName', res.data.second_vacine_name);
+                    url.searchParams.append('subcenter', res.data.subcenter);
+                    url.searchParams.append('dob', dateToNormal(res.data.dob));
+                    url.searchParams.append('first_dose_date', dateToNormal(res.data.first_dose_date));
+                    url.searchParams.append('phone', etob(res.data.mobile));
+                    url.searchParams.append('first_vacine_name', res.data.first_vacine_name);
+                    url.searchParams.append('second_dose_date', dateToNormal(res.data.second_dose_date));
+                    url.searchParams.append('second_vacine_name', res.data.second_vacine_name);
                     window.location.href = url;
                 }
             })
@@ -271,11 +273,12 @@ $(document).ready(function() {
                     url.searchParams.append('name', res.data.name);
                     url.searchParams.append('nid', res.data.nid);
                     url.searchParams.append('age', res.data.age);
-                    url.searchParams.append('dob', res.data.dob);
-                    url.searchParams.append('first_dose_date', res.data.first_dose_date);
-                    url.searchParams.append('phone', res.data.phone);
+                    url.searchParams.append('subcenter', res.data.subcenter);
+                    url.searchParams.append('dob', dateToNormal(res.data.dob));
+                    url.searchParams.append('first_dose_date', dateToNormal(res.data.first_dose_date));
+                    url.searchParams.append('phone', etob(res.data.mobile));
                     url.searchParams.append('first_vacine_name', res.data.first_vacine_name);
-                    url.searchParams.append('second_dose_date', res.data.second_dose_date);
+                    url.searchParams.append('second_dose_date', dateToNormal(res.data.second_dose_date));
                     url.searchParams.append('second_vacine_name', res.data.second_vacine_name);
                     window.location.href = url;
                 }
@@ -285,6 +288,41 @@ $(document).ready(function() {
     })
 })
 
+// date to normal number format 
+function dateToNormal(date) {
+    if (!date) return '';
+    let dateArray = date.split('-');
+    let year = dateArray[0];
+    let month = dateArray[1];
+    let day = dateArray[2];
+
+    return etob(day) + '/' + etob(month) + '/' + etob(year);;
+}
+
+function etob(day) {
+    let days = ['০', '১', '২', '৩', '৪', '৫', '৬', '৭', '৮', '৯'];
+    if (day > 9) {
+        // split the day into two digits
+        var day_split = day.toString().split('');
+        var day_first = [];
+        for (var i = 0; i < day_split.length; i++) {
+            day_split[i] = parseInt(day_split[i]);
+            for (let j = 0; j < days.length; j++) {
+                if (day_split[i] == j) {
+                    day_first[i] = days[j];
+                }
+            }
+        }
+        return day_first.toString().replace(/,/g, '')
+
+    }
+
+    for (let i = 0; i < days.length + 1; i++) {
+        if (day == i) {
+            return days[i];
+        }
+    }
+}
 // function printDiv() {
 //     window.location.href = 'titkaCard.html?name=anis&nid=123456789';
 // }

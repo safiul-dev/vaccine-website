@@ -3,6 +3,7 @@ var url = new URL(url_string);
 document.getElementById('identify_id').value = url.searchParams.get('nid');
 document.getElementById('name').value = url.searchParams.get('name');
 document.getElementById('dob').value = url.searchParams.get('dob');
+document.getElementById('subcenter').value = url.searchParams.get('subcenter');
 document.getElementById('phone').value = url.searchParams.get('phone');
 document.getElementById('subcenter').value = url.searchParams.get('subcenter');
 document.getElementById('donner_name').value = url.searchParams.get('donner_name');
