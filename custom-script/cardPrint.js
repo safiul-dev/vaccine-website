@@ -5,7 +5,6 @@ document.getElementById('name').value = url.searchParams.get('name');
 document.getElementById('dob').value = url.searchParams.get('dob');
 document.getElementById('subcenter').value = url.searchParams.get('subcenter');
 document.getElementById('phone').value = url.searchParams.get('phone');
-document.getElementById('subcenter').value = url.searchParams.get('subcenter');
 document.getElementById('donner_name').value = url.searchParams.get('donner_name');
 document.getElementById('donner_phone').value = url.searchParams.get('donner_phone');
 document.getElementById('1st-dose-date').innerText = url.searchParams.get('first_dose_date');
