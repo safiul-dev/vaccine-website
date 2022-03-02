@@ -10,7 +10,6 @@
     font-weight: 600;
 }
 
-
 .bread_cam span:nth-child(2) {
     position: relative;
     padding-left: 17px;
@@ -26,9 +25,8 @@
 
 .bread_cam span a {
     font-size: 24px;
-    color:#609513;
-    }
-
+    color: #609513;
+}
 
 .bread_cam span a:hover {
     text-decoration: underline !important;
@@ -36,6 +34,7 @@
 
 
 /* sinlge box section  */
+
 .location_section {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -58,41 +57,51 @@
 .location_img img {
     /* border-radius: 15px 15px 0px 0; */
 }
+
+
 /* .location_img {
     margin-bottom: 20px;
 } */
 
 .single_location_content h2 {
     padding-bottom: 5px;
-
 }
+
 .location_content {
     padding: 0 15px 15px 15px;
 }
-.name_team a{
+
+.name_team a {
     color: rgb(141, 198, 63);
 }
-.name_team a:hover{
+
+.name_team a:hover {
     text-decoration: underline !important;
 }
+
+
 /* .single_location{
     margin-bottom: 30px;
 } */
+
+
 /* sinlge box section  */
 
-@media all and (max-width:980px){
+@media all and (max-width:980px) {
     .single_location_content h2 {
         font-size: 24px;
     }
-    
     .location_content p {
         font-size: 18px;
     }
-    .inner_banner_content h1{
+    .inner_banner_content h1 {
         font-size: 30px;
     }
 }
+
+
 /* team section   */
+
 .single_team {
     text-align: center;
 }
@@ -123,6 +132,7 @@
     max-width: 150px;
     margin: 0 auto;
 }
+
 .single_team_area {
     margin-bottom: 30px;
 }
@@ -137,15 +147,21 @@
     font-size: 40px;
     font-weight: 600;
 }
-.white_team{
+
+.white_team {
     background: transparent;
 }
+
+
 /* team section   */
-.align_items_cmn{
+
+.align_items_cmn {
     align-items: center;
 }
 
+
 /* union team  */
+
 .unioun_team ul li {
     display: inline;
     margin-right: 5px;
@@ -170,31 +186,31 @@
     margin-right: 10px;
     display: inline-block;
 }
-@media all and (max-width:991px){
-    .colum-reverse{
-    display: flex;
-    flex-direction: column-reverse;
 
-}
-.single_location {
-    margin-bottom: 0;
-}
-.location_content{
-    padding: 0;
-}
-.margin_bottom_cmn{
-    margin-bottom: 30px;
-}
-.location_img{
-    margin-bottom: 20px;
-}
-}
-@media all and (min-width:992px){
- .location_section    .margin_bottom_cmn{
-        margin-bottom: 50px;
+@media all and (max-width:991px) {
+    .colum-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .single_location {
+        margin-bottom: 0;
+    }
+    .location_content {
+        padding: 0;
+    }
+    .margin_bottom_cmn {
+        margin-bottom: 30px;
+    }
+    .location_img {
+        margin-bottom: 20px;
     }
 }
 
+@media all and (min-width:992px) {
+    .location_section .margin_bottom_cmn {
+        margin-bottom: 50px;
+    }
+}
 
 .section_title h2 {
     color: rgb(51, 52, 160);
@@ -208,15 +224,19 @@
     text-align: center;
     margin-bottom: 50px;
 }
-@media all and (max-width:991px){
+
+@media all and (max-width:991px) {
     .section_title h2 {
         font-size: 30px;
     }
-    .section_title{
+    .section_title {
         margin-bottom: 25px;
     }
 }
-.bg_cmn_g{
+
+.bg_cmn_g {
     background-color: rgb(235, 240, 255);
 }
+
+
 /* union team  */

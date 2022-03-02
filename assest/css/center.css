@@ -1,0 +1,48 @@
+h3.select_your_c {
+    color: #ff0101;
+}
+
+.center_name_list .single_btn {
+    width: 100%;
+    margin-right: 0 !important;
+    text-align: center;
+    display: block;
+}
+
+.center_name_list .single_btn a {
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* tab  */
+
+.centr_list_tab_section .custom_tab_menu {
+    text-align: center;
+}
+
+.centr_list_tab_section .custom_tab_menu li {
+    display: inline-block;
+    width: calc(25% - 20px);
+    margin-right: 20px;
+}
+
+.centr_list_tab_section .custom_tab_menu li:nth-child(4n) {
+    margin-right: 0;
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .centr_list_tab_section .custom_tab_menu li {
+        margin-right: 20px !important;
+        width: auto;
+    }
+}
+
+@media all and (max-width:767px) {
+    .centr_list_tab_section .custom_tab_menu li {
+        margin: 0 auto !important;
+        margin-bottom: 15px !important;
+        width: auto;
+    }
+}

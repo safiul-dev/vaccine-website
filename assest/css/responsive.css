@@ -1,6 +1,125 @@
-  @media only screen and (min-width: 768px) and (max-width: 1100px){
-    }
-@media all and (max-width: 767px) {
-
-}
-ul ul {}
+  @media only screen and (min-width: 768px) and (max-width: 1100px) {}
+  
+  @media all and (max-width: 767px) {}
+  
+  @media only screen and (max-width:991px) {
+      .top_header .top_header_content h2 {
+          font-size: 20px;
+      }
+      .top_header .top_header_content h1 {
+          font-size: 24px;
+      }
+      .top_header .col-sm-8 {
+          order: 3;
+          margin-top: 20px;
+          width: 100% !important;
+      }
+      .top_header .col-sm-2:last-child {
+          order: 2;
+      }
+      .top_header .col-sm-2 {
+          width: 50%;
+      }
+      .top_header .left_logo {
+          max-width: 80px;
+      }
+      .top_header .right_logo {
+          max-width: 100px;
+      }
+      button.navbar-toggler {
+          margin-left: auto;
+      }
+      /* full responi  */
+      button.navbar-toggler {
+          margin-left: auto;
+      }
+      .menu_area_custom ul li:after {
+          display: none;
+      }
+      .slider_box_1_content h2 {
+          font-size: 20px;
+      }
+      .cmn_box_bg h3 {
+          font-size: 18px;
+      }
+      .sing_3box {
+          width: 100%;
+          margin-bottom: 30px;
+      }
+      /* end  */
+  }
+  /* movile  */
+  
+  @media all and (max-width:767px) {
+      .single_btn {
+          width: 100%;
+          margin-right: 0 !important;
+      }
+  }
+  /* tab  */
+  
+  @media only screen and (min-width:992px) and (max-width:1279px) {
+      .menu_area_custom ul li {
+          margin-right: 5px;
+      }
+      .menu_area_custom ul li a {
+          font-size: 17px;
+      }
+  }
+  /* reg page  */
+  
+  @media all and (max-width:991px) {
+      .tab_content_area_s .single_input.half_one {
+          width: 100%;
+          margin-right: 0;
+      }
+      .tab_content_area_s .submit_btn_area {
+          margin-top: 20px;
+      }
+      .section_title h2 {
+          font-size: 22px;
+      }
+      .section_title_up_d h3 {
+          font-size: 24px;
+      }
+      .success_massage h2 {
+          font-size: 20px;
+      }
+  }
+  
+  @media all and (max-width:767px) {
+      .section_title h2 {
+          font-size: 18px;
+          padding-left: 30px;
+          padding-right: 30px;
+      }
+      .section_title_up_d h3 {
+          font-size: 20px;
+      }
+      .success_massage h2 {
+          font-size: 18px;
+      }
+      .success_massage {
+          margin-top: 30px;
+      }
+      /* sp  */
+      .tab_content_area_s .single_input input {
+          padding: 10px;
+          /* font-size: 10px; */
+      }
+      .birtdy_3:nth-child(1) {
+          width: 70px;
+      }
+      .birtdy_3:nth-child(3) {
+          width: 90px;
+      }
+      .birtdy_3 {
+          margin-right: 10px;
+      }
+      .tab_content_area_s button.big_form_submit_btn.sp_b {
+          padding-left: 30px;
+          padding-right: 20px;
+          font-size: 19px;
+      }
+  }
+  /* end reg page  */

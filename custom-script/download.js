@@ -85,7 +85,6 @@ $(document).ready(function() {
                     } else {
                         $('.error').html('<div class="alert alert-danger">আপনার তথ্যসমূহ সঠিক নয়। দয়া করে পুনরায় তথ্য দিন</div>');
                     }
-
                 }
             })
         }
