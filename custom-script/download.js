@@ -79,7 +79,7 @@ $(document).ready(function() {
                     date: date,
                 },
                 success: function(res) {
-                    if (!res.status) {
+                    if (!res) {
                         $('.error').html('<div class="alert alert-danger">আপনার তথ্যসমূহ সঠিক নয়। দয়া করে পুনরায় তথ্য দিন</div>');
                     } else {
                         url = new URL('https://covidvaccination-brahmanpara.gov.bd/tikaCard.html');
@@ -119,7 +119,7 @@ $(document).ready(function() {
                     date: date,
                 },
                 success: function(res) {
-                    if (!res.status) {
+                    if (!res) {
                         $('.error').html('<div class="alert alert-danger">আপনার তথ্যসমূহ সঠিক নয়। দয়া করে পুনরায় তথ্য দিন</div>');
                     } else {
                         url = new URL('https://covidvaccination-brahmanpara.gov.bd/tikaCard.html');
@@ -159,7 +159,7 @@ $(document).ready(function() {
                     date: date,
                 },
                 success: function(res) {
-                    if (!res.status) {
+                    if (!res) {
                         $('.error').html('<div class="alert alert-danger">আপনার তথ্যসমূহ সঠিক নয়। দয়া করে পুনরায় তথ্য দিন</div>');
                     } else {
                         url = new URL('https://covidvaccination-brahmanpara.gov.bd/tikaCard.html');
