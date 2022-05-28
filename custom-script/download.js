@@ -72,19 +72,31 @@ $(document).ready(function() {
             let date = $('#Year').val() + '-' + $('#month').val() + '-' + $('#day').val();
 
             $.ajax({
-                url: 'https://uno.covidvaccination-brahmanpara.gov.bd/check-user-registered',
+                url: 'https://uno.covidvaccination-brahmanpara.gov.bd/generate-pdf',
                 type: 'get',
                 data: {
                     nid: nid,
-                    date: date
+                    date: date,
                 },
                 success: function(res) {
-                    if (res.status) {
-                        $('#nid-otp').val(Math.floor(Math.random() * (9999 - 1000) + 1000));
-                        $('#userId').val(res.data);
-                    } else {
+                    if (!res.status) {
                         $('.error').html('<div class="alert alert-danger">আপনার তথ্যসমূহ সঠিক নয়। দয়া করে পুনরায় তথ্য দিন</div>');
+                    } else {
+                        url = new URL('https://covidvaccination-brahmanpara.gov.bd/tikaCard.html');
+                        url.searchParams.append('subcenter', res.data.subcenter);
+                        url.searchParams.append('name', res.data.name);
+                        url.searchParams.append('nid', res.data.nid);
+                        url.searchParams.append('age', res.data.age);
+                        url.searchParams.append('subcenter', res.data.subcenter);
+                        url.searchParams.append('dob', dateToNormal(res.data.dob));
+                        url.searchParams.append('first_dose_date', dateToNormal(res.data.first_dose_date));
+                        url.searchParams.append('phone', etob(res.data.mobile));
+                        url.searchParams.append('first_vacine_name', res.data.first_vacine_name);
+                        url.searchParams.append('second_dose_date', dateToNormal(res.data.second_dose_date));
+                        url.searchParams.append('second_vacine_name', res.data.second_vacine_name);
+                        window.location.href = url;
                     }
+
                 }
             })
         }
@@ -100,25 +112,37 @@ $(document).ready(function() {
             let date = $('#Year3').val() + '-' + $('#month3').val() + '-' + $('#day3').val();
 
             $.ajax({
-                url: 'https://uno.covidvaccination-brahmanpara.gov.bd/check-user-registered',
+                url: 'https://uno.covidvaccination-brahmanpara.gov.bd/generate-pdf',
                 type: 'get',
                 data: {
                     nid: nid,
-                    date: date
+                    date: date,
                 },
                 success: function(res) {
-                    if (res.status) {
-                        $('#pass-otp').val(Math.floor(Math.random() * (9999 - 1000) + 1000));
-                        $('#userId').val(res.data);
+                    if (!res.status) {
+                        $('.error').html('<div class="alert alert-danger">আপনার তথ্যসমূহ সঠিক নয়। দয়া করে পুনরায় তথ্য দিন</div>');
                     } else {
-                        $('.error').html('<div class="alert alert-danger"> আপনার তথ্যসমূহ সঠিক নয়। দয়া করে পুনরায় তথ্য দিন </div>');
+                        url = new URL('https://covidvaccination-brahmanpara.gov.bd/tikaCard.html');
+                        url.searchParams.append('subcenter', res.data.subcenter);
+                        url.searchParams.append('name', res.data.name);
+                        url.searchParams.append('nid', res.data.nid);
+                        url.searchParams.append('age', res.data.age);
+                        url.searchParams.append('subcenter', res.data.subcenter);
+                        url.searchParams.append('dob', dateToNormal(res.data.dob));
+                        url.searchParams.append('first_dose_date', dateToNormal(res.data.first_dose_date));
+                        url.searchParams.append('phone', etob(res.data.mobile));
+                        url.searchParams.append('first_vacine_name', res.data.first_vacine_name);
+                        url.searchParams.append('second_dose_date', dateToNormal(res.data.second_dose_date));
+                        url.searchParams.append('second_vacine_name', res.data.second_vacine_name);
+                        window.location.href = url;
                     }
-
                 }
+
             })
         }
 
     })
+
     $('#submit-birth').on('submit', function(e) {
         e.preventDefault();
 
@@ -128,20 +152,30 @@ $(document).ready(function() {
             let date = $('#Year2').val() + '-' + $('#month2').val() + '-' + $('#day2').val();
 
             $.ajax({
-                url: 'https://uno.covidvaccination-brahmanpara.gov.bd/check-user-registered',
+                url: 'https://uno.covidvaccination-brahmanpara.gov.bd/generate-pdf',
                 type: 'get',
                 data: {
                     nid: nid,
-                    date: date
+                    date: date,
                 },
                 success: function(res) {
-                    if (res.status) {
-                        $('#birth-otp').val(Math.floor(Math.random() * (9999 - 1000) + 1000));
-                        $('#userId').val(res.data);
-                    } else {
+                    if (!res.status) {
                         $('.error').html('<div class="alert alert-danger">আপনার তথ্যসমূহ সঠিক নয়। দয়া করে পুনরায় তথ্য দিন</div>');
+                    } else {
+                        url = new URL('https://covidvaccination-brahmanpara.gov.bd/tikaCard.html');
+                        url.searchParams.append('subcenter', res.data.subcenter);
+                        url.searchParams.append('name', res.data.name);
+                        url.searchParams.append('nid', res.data.nid);
+                        url.searchParams.append('age', res.data.age);
+                        url.searchParams.append('subcenter', res.data.subcenter);
+                        url.searchParams.append('dob', dateToNormal(res.data.dob));
+                        url.searchParams.append('first_dose_date', dateToNormal(res.data.first_dose_date));
+                        url.searchParams.append('phone', etob(res.data.mobile));
+                        url.searchParams.append('first_vacine_name', res.data.first_vacine_name);
+                        url.searchParams.append('second_dose_date', dateToNormal(res.data.second_dose_date));
+                        url.searchParams.append('second_vacine_name', res.data.second_vacine_name);
+                        window.location.href = url;
                     }
-
                 }
             })
         }
@@ -223,6 +257,7 @@ $(document).ready(function() {
         }
 
     })
+
     $('#birth-vaccine-card').on('submit', function(e) {
         e.preventDefault();
         // let otp = $('#birth-otp').val();
